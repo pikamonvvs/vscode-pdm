@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vscode-pyenv-poetry"
+version = "0.1.0"
+description = ""
+authors = ["pikamonvvs <pikamonvvs@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ffmpeg-python = "^0.2.0"
+streamlink = "^6.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
