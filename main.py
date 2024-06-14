@@ -1,8 +1,33 @@
-import ffmpeg
 import streamlink
 
+import ffmpeg
+from ffmpeg_installer import FfmpegInstaller
 
-def download_stream(url, output_file):
+
+def test_convert_flv_to_mp4(input_file, output_file):
+    try:
+        (
+            ffmpeg.input(input_file)
+            .output(output_file, format="mp4", vcodec="copy", acodec="copy")
+            .run(overwrite_output=True)
+        )
+        print(f"Converted {input_file} to {output_file}")
+    except ffmpeg.Error as e:
+        print(f"Error: {e.stderr.decode('utf-8')}")
+        raise e
+
+
+def test_convert_mp4_to_avi(input_file, output_file):
+    try:
+        # FFmpeg 명령을 구성하고 실행
+        (ffmpeg.input(input_file).output(output_file).run(overwrite_output=True, quiet=True))
+        print(f"Conversion successful: {input_file} -> {output_file}")
+    except ffmpeg.Error as e:
+        print(f"Error: {e.stderr.decode('utf-8')}")
+        raise e
+
+
+def test_download_stream(url, output_file):
     streams = streamlink.streams(url)
     stream = streams["best"]
     with stream.open() as fd:
@@ -26,10 +51,18 @@ def download_stream(url, output_file):
 
 
 def main():
-    url = "https://www.example.com/"
-    output_file = "output.mp4"
-    download_stream(url, output_file)
-    print("Downloaded")
+    my_ffmpeg = FfmpegInstaller()
+    my_ffmpeg.run()
+
+    # Convert MP4 to AVI
+    input_file = "videoplayback.mp4"
+    output_file = "output.avi"
+    test_convert_mp4_to_avi(input_file, output_file)
+
+    # Download stream
+    # url = "https://www.example.com/"
+    # output_file = "output.mp4"
+    # test_download_stream(url, output_file)
 
 
 if __name__ == "__main__":

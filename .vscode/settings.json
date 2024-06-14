@@ -1,6 +1,14 @@
 {
+    // Python Settings
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.unusedImports": "always",
+            "source.fixAll": "always"
+        }
+    },
     // Python Formatting (Black)
-    "editor.formatOnSave": true,
     "black-formatter.args": [
         "--line-length=120"
     ],
@@ -14,11 +22,8 @@
         "--ignore-missing-imports"
     ],
     // Python Import Sorting (isort)
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "always"
-    },
     "isort.args": [
         "--profile",
-        "black"
+        "black",
     ]
 }
