@@ -11,6 +11,8 @@ ffmpeg-python = "^0.2.0"
 streamlink = "^6.7.4"
 requests = "^2.32.3"
 loguru = "^0.7.2"
+aioconsole = "^0.7.1"
+keyboard = "^0.13.5"
 
 
 [tool.poetry.group.dev.dependencies]
