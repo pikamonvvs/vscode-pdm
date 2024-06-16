@@ -1,6 +1,6 @@
+import ffmpeg
 import streamlink
 
-import ffmpeg
 from ffmpeg_installer import FfmpegInstaller
 
 
