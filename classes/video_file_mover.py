@@ -3,8 +3,9 @@ import os
 import platform
 import shutil
 
-import ffmpeg
 from ffmpeg_installer import FfmpegInstaller
+
+import ffmpeg
 
 
 class VideoFileMover:
@@ -69,20 +70,25 @@ class VideoFileMover:
         # Create the destination directory if it does not exist
         os.makedirs(os.path.dirname(dst_path), exist_ok=True)
 
-        if src_path.endswith(".flv"):
-            print("Converting FLV to MP4...")
-            dst_path = dst_path.replace(".flv", ".mp4")
-            self.convert_to_mp4(src_path, dst_path)
-        elif src_path.endswith(".mp4"):
-            print("Converting MP4 to MP4...")
-            self.convert_to_mp4(src_path, dst_path)
-        else:
-            print("Moving file...")
-            shutil.move(src_path, dst_path)
+        try:
+            if src_path.endswith(".flv"):
+                print("Converting FLV to MP4...")
+                dst_path = dst_path.replace(".flv", ".mp4")
+                self.convert_to_mp4(src_path, dst_path)
+            elif src_path.endswith(".mp4"):
+                print("Converting MP4 to MP4...")
+                self.convert_to_mp4(src_path, dst_path)
+            else:
+                print("Moving file...")
+                shutil.copy(src_path, dst_path)
+        except Exception as e:
+            print(f"Error: {e}")
+            return False
 
         print(f"File moved from {src_path} to {dst_path}")
+        return True
 
-    def move_files_if_space(self, src_directory, dst_directory):
+    def move_files_if_space(self, src_directory, dst_directory, remove_src_files=True):
         # Calculate the total allocated size of files to move
         files_to_move = self.get_files_not_in_use(src_directory)
         total_allocated_size = sum(self.get_file_allocated_size(f) for f in files_to_move)
@@ -96,31 +102,32 @@ class VideoFileMover:
 
         if total_allocated_size > drive_free_space:
             print(f"Not enough {dst_drive} space on the destination drive to move all files.")
-            return False
+            return
 
         for src_path in files_to_move:
             dst_path = os.path.join(dst_directory, os.path.relpath(src_path, src_directory))
 
             is_move_successful = self.move_file(src_path, dst_path)
             if is_move_successful:
-                os.remove(src_path)
+                print(f"Moved file from {src_path} to {dst_path}")
+                if remove_src_files:
+                    print(f"Removing {src_path}...")
+                    os.remove(src_path)
+                    print(f"Removed {src_path}")
             else:
                 print(f"Failed to move file from {src_path} to {dst_path}")
                 continue
 
-        return True
-
 
 def main():
-    installer = FfmpegInstaller()
-    installer.run()
+    FfmpegInstaller().run()
 
     src_directory = input("Enter the source directory: ").strip('"')
     if not src_directory:
-        src_directory = r"C:\Users\pcuser\Desktop\files"
+        src_directory = r"Z:\\"
     dst_directory = input("Enter the destination directory: ").strip('"')
     if not dst_directory:
-        dst_directory = r"D:\\"
+        dst_directory = r"D:\Works"
 
     mover = VideoFileMover()
     files_not_in_use = mover.get_files_not_in_use(src_directory)
@@ -136,7 +143,7 @@ def main():
     else:
         print("Not enough space to move all files.")
 
-    # mover.move_files_if_space(src_directory, dst_directory)
+    mover.move_files_if_space(src_directory, dst_directory)
 
 
 if __name__ == "__main__":

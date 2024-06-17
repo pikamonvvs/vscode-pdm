@@ -3,9 +3,9 @@ import subprocess
 import zipfile
 
 import requests
+from logutil import LogUtil as Logger
 
 import ffmpeg
-from utils import Logger
 
 
 class FfmpegInstaller:
@@ -64,9 +64,7 @@ class FfmpegInstaller:
     def test_ffmpeg(self):
         self.logger.log_info("Checking FFmpeg version...")
         try:
-            result = subprocess.run(
-                ["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, text=True
-            )
+            result = subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, text=True)
             version_info = result.stdout
             self.logger.log_info(f"FFmpeg version: {version_info}")
         except Exception as e:
