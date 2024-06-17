@@ -3,9 +3,9 @@ import subprocess
 import zipfile
 
 import requests
-from logutil import LogUtil as Logger
 
 import ffmpeg
+from classes.logutil import LogUtil as Logger
 
 
 class FfmpegInstaller:
