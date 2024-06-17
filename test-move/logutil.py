@@ -5,12 +5,12 @@ from datetime import datetime
 from loguru import logger
 
 
-class Logger:
+class LogUtil:
     _instance = None
 
     def __new__(cls, *args, **kwargs):
         if cls._instance is None:
-            cls._instance = super(Logger, cls).__new__(cls)
+            cls._instance = super(LogUtil, cls).__new__(cls)
             cls._instance._initialized = False
         return cls._instance
 
@@ -71,15 +71,15 @@ class Logger:
 
 
 def main():
-    my_logger = Logger()
-    my_logger.log_debug("This is a debug message.")
-    my_logger.log_info("This is an info message.")
-    my_logger.log_warning("This is a warning message.")
-    my_logger.log_error("This is an error message.")
+    logutil = LogUtil()
+    logutil.log_debug("This is a debug message.")
+    logutil.log_info("This is an info message.")
+    logutil.log_warning("This is a warning message.")
+    logutil.log_error("This is an error message.")
     try:
         1 / 0
     except ZeroDivisionError:
-        my_logger.log_exception("An exception occurred.")
+        logutil.log_exception("An exception occurred.")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 {
     // Python Settings
+    "python.languageServer":"None",
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
@@ -10,12 +11,12 @@
     },
     // Python Formatting (Black)
     "black-formatter.args": [
-        "--line-length=120"
+        "--line-length=200"
     ],
     // Python Linting (Flake8)
     "flake8.args": [
         "--ignore=E501",
-        "--max-line-length=120"
+        "--max-line-length=200"
     ],
     // Python Type Checking (Mypy)
     "mypy-type-checker.args": [
