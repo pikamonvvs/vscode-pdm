@@ -1,4 +1,5 @@
 # import asyncio
+import json
 import os
 import re
 import time
@@ -19,11 +20,6 @@ DEFAULT_OUTPUT = "output"
 DEFAULT_FORMAT = "ts"
 
 
-class Afreeca:
-    async def run(self):
-        pass
-
-
 class Chzzk:
     def __init__(self, user: dict):
         self.platform = user["platform"]
@@ -38,6 +34,10 @@ class Chzzk:
         self.output = user.get("output", DEFAULT_OUTPUT)
 
         self.flag = f"[{self.platform}][{self.name}]"
+
+        logger.debug(f"platform: {self.platform}")
+        logger.debug(f"name: {self.name}")
+        logger.debug(f"flag: {self.flag}")
 
         self.get_cookies()
         self.client = self.get_client()
@@ -126,13 +126,16 @@ class Chzzk:
 
     def get_channel_info(self, channel_id):
         try:
-            response = requests.get(f"https://api.chzzk.naver.com/service/v1/channels/{channel_id}/live-detail", headers=self.headers)
+            response = requests.get(f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail", headers=self.headers)
             if response.status_code == 404:
                 return None
 
             content = response.json()["content"]
+
+            logger.debug(f"content: {json.dumps(content, indent=4, ensure_ascii=False)}")
+
             channel_name = content["channel"]["channelName"]
-            title = content["liveTitle"]
+            title = content["liveTitle"].rstrip()
             category = content["liveCategoryValue"]
 
             return channel_name, title, category
@@ -144,10 +147,12 @@ class Chzzk:
 
     def check_if_live(self, channel_id):
         try:
-            response = requests.get(f"https://api.chzzk.naver.com/service/v1/channels/{channel_id}/live-detail", headers=self.headers)
+            response = requests.get(f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail", headers=self.headers)
             if response.status_code == 404:
                 return None
-            status = response.json()["content"]["status"]
+            data_json = response.json()
+            logger.debug(f"channel information: {json.dumps(data_json, indent=4, ensure_ascii=False)}")
+            status = data_json["content"]["status"]
             return status
         except Exception as e:
             logger.info(f"Error occurred while fetching channel information: {e}")
@@ -170,6 +175,12 @@ class Chzzk:
         }
         for half, full in char_dict.items():
             title = title.replace(half, full)
+
+        logger.debug(f"live_time: {live_time}")
+        logger.debug(f"flag: {self.flag}")
+        logger.debug(f"title: {title}")
+        logger.debug(f"format: {format}")
+
         filename = f"[{live_time}]{self.flag}{title[:50]}.{format}"
         return filename
 
@@ -192,8 +203,6 @@ class Chzzk:
 
     def download_stream(self, channel_id, output_file):
         url = f"https://chzzk.naver.com/live/{channel_id}"
-        # streams = streamlink.streams(url)
-        # stream = streams["best"]
         stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
 
         with stream.open() as fd:
@@ -205,13 +214,14 @@ class Chzzk:
                         break
                     process.stdin.write(data)
             except KeyboardInterrupt:
-                logger.info("KeyboardInterrupt")
+                logger.warning("KeyboardInterrupt")
             finally:
                 process.stdin.close()
                 process.wait()
                 self.auto_convert_mp4(output_file)
 
-    def run(self):
+    def print_info(self):
+        logger.info("=============================")
         logger.info(f"platform: {self.platform}")
         logger.info(f"id: {self.id}")
         logger.info(f"name: {self.name}")
@@ -221,9 +231,9 @@ class Chzzk:
         logger.info(f"format: {self.format}")
         logger.info(f"proxy: {self.proxy}")
         logger.info(f"output: {self.output}")
+        logger.info("=============================")
 
-        return
-
+    def run(self):
         if not self.id:
             logger.info("Channel ID or channel name is required.")
             return
@@ -235,17 +245,27 @@ class Chzzk:
                 return
             self.id = channel_id
 
+        self.print_info()
+
+        if not os.path.exists(self.output):
+            os.makedirs(self.output)
+
         while True:
             status = self.check_if_live(channel_id)
+            logger.debug(f"status: {status}")
             if status == "OPEN":
                 logger.info("The channel is on air.")
 
                 channel_name, title, category = self.get_channel_info(channel_id)
-                file_name = self.get_filename(channel_name, title, self.extension)
+                file_name = self.get_filename(channel_name, title, self.format)
                 output_path = os.path.join(self.output, file_name)
 
-                self.download_stream(channel_id, output_path)
+                logger.debug(f"channel_name: {channel_name}")
+                logger.debug(f"title: {title}")
+                logger.debug(f"category: {category}")
+                logger.debug(f"output_path: {output_path}")
 
+                self.download_stream(channel_id, output_path)
             else:
                 logger.info(f"The channel is offline. Checking again in {self.interval} seconds.")
                 time.sleep(self.interval)
