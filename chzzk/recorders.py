@@ -12,7 +12,6 @@ from httpx_socks import AsyncProxyTransport
 from loguru import logger
 
 import ffmpeg
-import utils.utils as utils
 
 DEFAULT_INTERVAL = 10
 DEFAULT_HEADERS = {"User-Agent": "Chrome"}
@@ -63,8 +62,8 @@ class Chzzk:
         cookies_file_path = os.path.join(plugins_dir, "cookies.txt")
 
         if not os.path.isfile(cookies_file_path) or os.path.getsize(cookies_file_path) == 0:
-            logger.info("The cookies.txt file does not exist or is empty. Please enter the cookie values.")
-            logger.info("\nReference: https://github.com/BlackOut-git/Chzzk-live-recorder")
+            logger.warning("The cookies.txt file does not exist or is empty. Please enter the cookie values.")
+            logger.warning("\nReference: https://github.com/BlackOut-git/Chzzk-live-recorder")
             NID_AUT = input("Enter the NID_AUT cookie value: ")
             NID_SES = input("Enter the NID_SES cookie value: ")
             with open(cookies_file_path, "w") as f:
@@ -107,42 +106,69 @@ class Chzzk:
 
     def get_id_from_name(self, name):
         try:
-            response = requests.get(f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={name}&size=1", headers=self.headers).json()
-            data = response["content"]["data"]
+            logger.debug(f"Searching for channel: {name}")
+            response = requests.get(f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={name}&size=1", headers=self.headers)
+            if response.status_code == 404:
+                logger.error(f"Page not found: {response.url}")
+                return None
+
+            response_json = response.json()
+
+            logger.debug(f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
+
+            data = response_json["content"]["data"]
             if not data:
-                logger.info(f"Cannot find channel {name}.")
+                logger.error(f"Cannot find channel {name}.")
                 return None
 
             for channel in data:
                 channel_name = channel["channel"]["channelName"]
                 if channel_name == name:
-                    return channel["channel"]["channelId"]
+                    channel_id = channel["channel"]["channelId"]
+                    if not channel_id:
+                        logger.error("Cannot find channel ID.")
+                        return None
+                    return channel_id
 
         except Exception as e:
-            logger.info(f"Error occurred while fetching channel information: {e}")
+            logger.error(f"Error occurred while fetching channel information: {e}")
             return None
 
+        logger.error(f"Cannot find channel {name}.")
         return None
 
     def get_channel_info(self, channel_id):
         try:
             response = requests.get(f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail", headers=self.headers)
             if response.status_code == 404:
+                logger.error(f"Page not found: {response.url}")
                 return None
 
-            content = response.json()["content"]
+            response_json = response.json()
+            logger.debug(f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
 
-            logger.debug(f"content: {json.dumps(content, indent=4, ensure_ascii=False)}")
+            content = response.json()["content"]
+            if not content:
+                logger.error("Cannot find channel information.")
+                return None
 
             channel_name = content["channel"]["channelName"]
-            title = content["liveTitle"].rstrip()
-            category = content["liveCategoryValue"]
+            if not channel_name:
+                logger.error("Cannot find channel name.")
+                return None
 
-            return channel_name, title, category
+            title = content["liveTitle"].rstrip()
+            if not title:
+                logger.error("Cannot find title.")
+                return None
+
+            return channel_name, title
 
         except Exception as e:
-            logger.info(f"Error occurred while fetching channel information: {e}")
+            logger.error(f"Error occurred while fetching channel information: {e}")
             return None
+
+        logger.error("Cannot find channel information.")
         return None
 
     def check_if_live(self, channel_id):
@@ -205,8 +231,13 @@ class Chzzk:
         url = f"https://chzzk.naver.com/live/{channel_id}"
         stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
 
+        if not stream:
+            logger.error("Cannot find any streams.")
+            return
+
         with stream.open() as fd:
             process = ffmpeg.input("pipe:0").output(output_file, vcodec="copy", acodec="copy").run_async(pipe_stdin=True, overwrite_output=True)
+            logger.info(f"Recording to {output_file}...")
             try:
                 while True:
                     data = fd.read(1024)
@@ -214,7 +245,7 @@ class Chzzk:
                         break
                     process.stdin.write(data)
             except KeyboardInterrupt:
-                logger.warning("KeyboardInterrupt")
+                logger.warning("KeyboardInterrupt received. Stopping the recording...")
             finally:
                 process.stdin.close()
                 process.wait()
@@ -235,13 +266,13 @@ class Chzzk:
 
     def run(self):
         if not self.id:
-            logger.info("Channel ID or channel name is required.")
+            logger.error("Channel ID or channel name is required.")
             return
 
         if not self.check_if_id(self.id):
             channel_id = self.get_id_from_name(self.id)
             if channel_id is None:
-                logger.info(f"Cannot find channel {self.id}.")
+                logger.error(f"Cannot find channel {self.id}.")
                 return
             self.id = channel_id
 
@@ -256,34 +287,15 @@ class Chzzk:
             if status == "OPEN":
                 logger.info("The channel is on air.")
 
-                channel_name, title, category = self.get_channel_info(channel_id)
+                channel_name, title = self.get_channel_info(channel_id)
                 file_name = self.get_filename(channel_name, title, self.format)
                 output_path = os.path.join(self.output, file_name)
 
                 logger.debug(f"channel_name: {channel_name}")
                 logger.debug(f"title: {title}")
-                logger.debug(f"category: {category}")
                 logger.debug(f"output_path: {output_path}")
 
                 self.download_stream(channel_id, output_path)
             else:
                 logger.info(f"The channel is offline. Checking again in {self.interval} seconds.")
                 time.sleep(self.interval)
-
-
-def main():
-    logger.add(
-        sink="logs/log_{time:YYYY-MM-DD}.log",
-        rotation="00:00",
-        retention="3 days",
-        level="INFO",
-        encoding="utf-8",
-        format="[{time:YYYY-MM-DD HH:mm:ss}][{level}][{name}][{function}:{line}]{message}",
-    )
-    args = utils.parse_args()
-    platform = globals()[args.get("platform")]
-    platform(args).run()
-
-
-if __name__ == "__main__":
-    main()

@@ -1,8 +1,12 @@
 __pycache__
 .mypy_cache
 ffmpeg
+cookies
 logs
 output
 *.avi
 *.flv
 *.mp4
+build
+dist
+*.spec
