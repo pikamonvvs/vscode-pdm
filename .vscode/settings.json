@@ -1,12 +1,11 @@
 {
     // Python Settings
-    "python.languageServer":"None",
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": "always",
-            "source.unusedImports": "always",
-            "source.fixAll": "always"
+            "source.organizeImports": "explicit",
+            "source.unusedImports": "explicit",
+            "source.fixAll": "explicit"
         }
     },
     // Python Formatting (Black)
@@ -25,6 +24,6 @@
     // Python Import Sorting (isort)
     "isort.args": [
         "--profile",
-        "black",
+        "black"
     ]
 }
