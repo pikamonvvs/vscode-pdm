@@ -1,11 +1,14 @@
 import os
+import re
+import shutil
 import subprocess
 import zipfile
 
 import requests
+from bs4 import BeautifulSoup
+from logutil import LogUtil as Logger
 
 import ffmpeg
-from classes.logutil import LogUtil as Logger
 
 
 class FfmpegInstaller:
@@ -43,6 +46,10 @@ class FfmpegInstaller:
             self.logger.log_info(f"Extracted folder name: {extracted_folder_name}")
         self.logger.log_info("FFmpeg is extracted")
 
+        # Remove the previous folder if exists to prevent conflicts
+        if os.path.exists(self.ffmpeg_dir):
+            shutil.rmtree(self.ffmpeg_dir)
+
         # Rename extracted folder to ffmpeg
         os.rename(os.path.join(self.cur_dir, extracted_folder_name), self.ffmpeg_dir)
         self.logger.log_info(f"Renamed '{extracted_folder_name}' to '{self.ffmpeg_dir}'")
@@ -60,6 +67,61 @@ class FfmpegInstaller:
         os.environ["PATH"] = env_path
         self.logger.log_debug(f"New PATH: {os.environ.get('PATH')}")
         self.logger.log_info("FFmpeg is registered to PATH")
+
+    def get_current_version(self):
+        try:
+            result = subprocess.run(["ffmpeg", "-version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            version_info = result.stdout.split("\n")[0].split()[2]
+            self.logger.log_debug(f"version_info = {version_info}")
+            match = re.search(r"\d+\.\d+\.\d+", version_info)
+            if not match:
+                self.logger.log_error("Cannot find version")
+                return None
+            version = match.group()
+            self.logger.log_debug(f"version: {version}")
+            return version
+        except Exception as e:
+            return f"An error occurred: {e}"
+
+    def get_latest_version(self):
+        try:
+            url = "https://www.gyan.dev/ffmpeg/builds/"
+            response = requests.get(url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, "html.parser")
+            release_span = soup.find("span", id="release-version")
+            if not release_span:
+                return "Latest release version not found"
+                return None
+
+            version = release_span.text.strip()
+            self.logger.log_debug(f"version: {version}")
+            return version
+        except Exception as e:
+            return f"An error occurred: {e}"
+
+    def check_using_older_version(self, version1, version2):
+        v1_parts = list(map(int, version1.split(".")))
+        v2_parts = list(map(int, version2.split(".")))
+
+        for v1, v2 in zip(v1_parts, v2_parts):
+            if v1 < v2:
+                return True
+
+        return False
+
+    def update_ffmpeg(self):
+        local_version = self.get_current_version()
+        remote_version = self.get_latest_version()
+
+        is_older_version = self.check_using_older_version(local_version, remote_version)
+        if is_older_version:
+            self.logger.log_info("An older version is being used.")
+            self.logger.log_info("Download newer version...")
+            self.install_ffmpeg()
+        else:
+            self.logger.log_info("The latest version is being used.")
 
     def test_ffmpeg(self):
         self.logger.log_info("Checking FFmpeg version...")
@@ -92,7 +154,8 @@ class FfmpegInstaller:
 
 def test():
     installer = FfmpegInstaller()
-    print(installer.check_ffmpeg_installed())
+    installer.install_ffmpeg()
+    installer.install_ffmpeg()
 
 
 def main():
@@ -102,3 +165,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # test()
