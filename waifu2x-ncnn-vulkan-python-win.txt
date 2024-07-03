@@ -60,3 +60,69 @@ waifu2x.load("models-cunet", "noise0_scale2x", 1, 1, 1)
 waifu2x.process(input_image_path, output_image_path)
 이 단계를 따르면 Windows에서 waifu2x-ncnn-vulkan-python을 설치하고 사용할 수 있습니다. 빌드 과정에서 문제가 발생할 경우, 출력된 에러 메시지를 확인하여 필요한 의존성을 설치하거나 설정을 조정하세요.
 
+
+
+
+
+주의.
+
+빌드 결과물이 .pyd 파일인 경우, 일반적으로 setup.py 파일을 사용하여 Python 패키지로 설치할 수 있습니다. 그러나 waifu2x-ncnn-vulkan-python 프로젝트의 경우, setup.py 파일이 없을 수도 있습니다. 이 경우, 빌드된 .pyd 파일을 직접 Python 패키지 디렉토리에 복사하여 사용할 수 있습니다.
+
+1. 빌드 결과물 확인
+빌드가 완료되면, 빌드 디렉토리 내에 .pyd 파일이 생성됩니다. 예를 들어, build/Release/waifu2x_ncnn_vulkan.pyd와 같은 경로에 파일이 있을 수 있습니다.
+
+2. .pyd 파일을 Python 패키지 디렉토리에 복사
+빌드된 .pyd 파일을 Python 패키지 디렉토리에 직접 복사하여 사용할 수 있습니다. 일반적으로 Python 패키지 디렉토리는 site-packages 디렉토리입니다.
+
+Language:
+# Python 패키지 디렉토리 경로 확인
+python -m site --user-site
+위 명령을 실행하면, 사용자 패키지 디렉토리 경로가 출력됩니다. 예를 들어, C:\Users\pcuser\AppData\Roaming\Python\Python310\site-packages와 같은 경로가 출력될 수 있습니다.
+
+3. .pyd 파일 복사
+빌드된 .pyd 파일을 확인한 패키지 디렉토리에 복사합니다.
+
+Language:
+copy build\Release\waifu2x_ncnn_vulkan.pyd C:\Users\pcuser\AppData\Roaming\Python\Python310\site-packages\
+4. Python에서 모듈 사용
+이제 Python에서 waifu2x_ncnn_vulkan 모듈을 임포트하여 사용할 수 있습니다.
+
+Language:PYTHON
+import waifu2x_ncnn_vulkan
+
+# 입력 이미지 파일 경로
+input_image_path = "input.png"
+# 출력 이미지 파일 경로
+output_image_path = "output.png"
+
+# waifu2x 설정
+waifu2x = waifu2x_ncnn_vulkan.Waifu2x()
+waifu2x.load("models-cunet", "noise0_scale2x", 1, 1, 1)
+
+# 이미지 변환
+waifu2x.process(input_image_path, output_image_path)
+setup.py 파일이 없는 경우
+만약 setup.py 파일이 없는 경우, 위와 같이 .pyd 파일을 직접 복사하여 사용할 수 있습니다. 그러나 setup.py 파일을 작성하여 패키지를 설치하는 것이 더 일반적입니다. 다음은 간단한 setup.py 파일 예시입니다:
+
+Language:PYTHON
+from setuptools import setup, Extension
+
+setup(
+    name='waifu2x_ncnn_vulkan',
+    version='1.0.4',
+    description='Python bindings for waifu2x-ncnn-vulkan',
+    ext_modules=[
+        Extension(
+            'waifu2x_ncnn_vulkan',
+            sources=['src/waifu2x_ncnn_vulkan.cpp'],  # 실제 소스 파일 경로
+            include_dirs=['include'],  # 필요한 경우 포함 디렉토리
+            library_dirs=['lib'],  # 필요한 경우 라이브러리 디렉토리
+            libraries=['waifu2x_ncnn_vulkan'],  # 필요한 경우 라이브러리 이름
+        )
+    ],
+)
+이 setup.py 파일을 프로젝트 루트 디렉토리에 추가한 후, 다음 명령을 사용하여 패키지를 설치할 수 있습니다:
+
+Language:
+python setup.py install
+이 단계를 따르면, waifu2x-ncnn-vulkan-python을 Windows에서 빌드하고 사용할 수 있습니다. 빌드 과정에서 문제가 발생할 경우, 출력된 에러 메시지를 확인하여 필요한 의존성을 설치하거나 설정을 조정하세요.
