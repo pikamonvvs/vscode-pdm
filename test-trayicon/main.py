@@ -1,9 +1,8 @@
 import os
 
-from PyQt5.QtCore import QSize
-from PyQt5.QtGui import QIcon
-from PyQt5.QtWidgets import (
-    QAction,
+from PyQt6.QtCore import QSize
+from PyQt6.QtGui import QAction, QIcon
+from PyQt6.QtWidgets import (
     QApplication,
     QCheckBox,
     QGridLayout,
@@ -14,7 +13,6 @@ from PyQt5.QtWidgets import (
     QSpacerItem,
     QSystemTrayIcon,
     QWidget,
-    qApp,
 )
 
 ICON_BASEDIR = "res"
@@ -40,7 +38,7 @@ class MainWindow(QMainWindow):
         grid_layout.addWidget(QLabel("Application, which can minimize to Tray", self), 0, 0)
         self.check_box = QCheckBox("Minimize to Tray")
         grid_layout.addWidget(self.check_box, 1, 0)
-        grid_layout.addItem(QSpacerItem(0, 0, QSizePolicy.Expanding, QSizePolicy.Expanding), 2, 0)
+        grid_layout.addItem(QSpacerItem(0, 0, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding), 2, 0)
 
         # Set up system tray icon
         self.tray_icon = QSystemTrayIcon(self)
@@ -54,7 +52,7 @@ class MainWindow(QMainWindow):
         # Connect actions
         show_action.triggered.connect(self.show)
         hide_action.triggered.connect(self.hide)
-        quit_action.triggered.connect(qApp.quit)
+        quit_action.triggered.connect(QApplication.instance().quit)
 
         # Create tray icon menu and add actions
         tray_menu = QMenu()
@@ -73,10 +71,10 @@ class MainWindow(QMainWindow):
         if self.check_box.isChecked():
             event.ignore()
             self.hide()
-            self.tray_icon.showMessage("Tray Program", "Application was minimized to Tray", QSystemTrayIcon.Information, 2000)
+            self.tray_icon.showMessage("Tray Program", "Application was minimized to Tray", QSystemTrayIcon.MessageIcon.Information, 2000)
 
     def on_tray_icon_activated(self, reason):
-        if reason == QSystemTrayIcon.DoubleClick:
+        if reason == QSystemTrayIcon.ActivationReason.DoubleClick:
             if self.isVisible():
                 self.hide()
             else:
