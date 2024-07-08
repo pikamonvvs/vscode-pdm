@@ -1,1 +1,1 @@
-# vscode-pyenv-poetry
+# vscode-pdm

@@ -1,2 +1,0 @@
-ffmpeg.exe -i input.ts -c:v libx264 -preset veryfast -crf 23 -c:a aac -b:a 128k output.mp4
-
