@@ -1,6 +1,6 @@
 import os
 
-from PyQt6.QtCore import QSize
+from PyQt6.QtCore import QSettings, QSize
 from PyQt6.QtGui import QAction, QIcon
 from PyQt6.QtWidgets import (
     QApplication,
@@ -30,8 +30,8 @@ class MainWindow(QMainWindow):
         central_widget = QWidget(self)
         self.setCentralWidget(central_widget)
 
-        # Create and set layout
-        grid_layout = QGridLayout(self)
+        # Create and set layout for the central widget
+        grid_layout = QGridLayout(central_widget)
         central_widget.setLayout(grid_layout)
 
         # Add widgets to layout
@@ -67,11 +67,18 @@ class MainWindow(QMainWindow):
         # Connect tray icon double click event
         self.tray_icon.activated.connect(self.on_tray_icon_activated)
 
+        # Load settings
+        self.load_settings()
+
     def closeEvent(self, event):
         if self.check_box.isChecked():
             event.ignore()
             self.hide()
             self.tray_icon.showMessage("Tray Program", "Application was minimized to Tray", QSystemTrayIcon.MessageIcon.Information, 2000)
+        else:
+            # Save settings
+            self.save_settings()
+            event.accept()
 
     def on_tray_icon_activated(self, reason):
         if reason == QSystemTrayIcon.ActivationReason.DoubleClick:
@@ -79,6 +86,17 @@ class MainWindow(QMainWindow):
                 self.hide()
             else:
                 self.show()
+
+    def load_settings(self):
+        settings = QSettings("MyCompany", "MyApp")
+        minimize_to_tray = settings.value("minimize_to_tray", False, type=bool)
+        print(f"Loaded minimize_to_tray: {minimize_to_tray}")  # 디버깅 메시지
+        self.check_box.setChecked(minimize_to_tray)
+
+    def save_settings(self):
+        settings = QSettings("MyCompany", "MyApp")
+        settings.setValue("minimize_to_tray", self.check_box.isChecked())
+        print(f"Saved minimize_to_tray: {self.check_box.isChecked()}")  # 디버깅 메시지
 
 
 if __name__ == "__main__":
