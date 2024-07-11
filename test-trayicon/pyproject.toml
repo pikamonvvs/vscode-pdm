@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "test-pyqt5"
+name = "test-trayicon"
 version = "0.1.0"
 description = ""
 authors = ["pikamonvvs <pikamonvvs@naver.com>"]
@@ -15,7 +15,7 @@ pyinstaller = {version = "^6.8.0", python = ">=3.12,<3.13"}
 distribution = false
 
 [project]
-name = "test-pyqt5"
+name = "test-trayicon"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [

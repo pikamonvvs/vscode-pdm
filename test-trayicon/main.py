@@ -23,7 +23,7 @@ ICON_PATH = os.path.join(ICON_BASEDIR, ICON_FILENAME)
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setMinimumSize(QSize(480, 80))  # Set sizes
+        self.setMinimumSize(QSize(380, 80))  # Set sizes
         self.setWindowTitle("System Tray Application")  # Set a title
 
         # Create and set central widget
@@ -70,6 +70,9 @@ class MainWindow(QMainWindow):
         # Load settings
         self.load_settings()
 
+        # Save settings when checkbox state changes
+        self.check_box.stateChanged.connect(self.save_settings)
+
     def closeEvent(self, event):
         if self.check_box.isChecked():
             event.ignore()
@@ -90,13 +93,13 @@ class MainWindow(QMainWindow):
     def load_settings(self):
         settings = QSettings("MyCompany", "MyApp")
         minimize_to_tray = settings.value("minimize_to_tray", False, type=bool)
-        print(f"Loaded minimize_to_tray: {minimize_to_tray}")  # 디버깅 메시지
+        print(f"Loaded minimize_to_tray: {minimize_to_tray}")
         self.check_box.setChecked(minimize_to_tray)
 
     def save_settings(self):
         settings = QSettings("MyCompany", "MyApp")
         settings.setValue("minimize_to_tray", self.check_box.isChecked())
-        print(f"Saved minimize_to_tray: {self.check_box.isChecked()}")  # 디버깅 메시지
+        print(f"Saved minimize_to_tray: {self.check_box.isChecked()}")
 
 
 if __name__ == "__main__":
