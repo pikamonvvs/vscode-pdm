@@ -1,4 +1,5 @@
 import os
+import sys
 
 from PyQt6.QtCore import QSettings, QSize
 from PyQt6.QtGui import QAction, QIcon
@@ -103,8 +104,6 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == "__main__":
-    import sys
-
     app = QApplication(sys.argv)
     mw = MainWindow()
     mw.show()
