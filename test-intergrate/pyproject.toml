@@ -1,0 +1,21 @@
+[project]
+name = "test-intergrate"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "pikamonvvs", email = "pikamonvvs@naver.com"},
+]
+dependencies = [
+    "loguru>=0.7.2",
+    "pyinstaller>=6.9.0",
+    "PyQt6>=6.7.0",
+    "argparse>=1.4.0",
+    "psutil>=6.0.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

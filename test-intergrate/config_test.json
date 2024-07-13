@@ -1,0 +1,25 @@
+{
+    "proxy": "http://127.0.0.1:7890",
+    "interval": 10,
+    "format": "mp4",
+    "output": "output",
+    "headers": {
+        "Referer": "https://www.google.com/"
+    },
+    "cookies": "NID_AUT=xxxxx; NID_SES=xxxxx",
+    "users": [
+        {
+            "platform": "Afreeca",
+            "id": "15152878",
+            "name": "asdf",
+            "interval": 10,
+            "format": "mp4",
+            "output": "D:\\output asdf",
+            "proxy": "socks5://127.0.0.1:7890",
+            "headers": {
+                "Referer": "https://www.google.com/"
+            },
+            "cookies": "NID_AUT=xxxxx; NID_SES=xxxxx"
+        }
+    ]
+}
