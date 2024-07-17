@@ -1,0 +1,56 @@
+{
+    "output": ".",
+    "proxy": null,
+    "interval": 10,
+    "format": "ts",
+    "headers": null,
+    "cookies": ".\\cookies\\cookies.txt",
+    "groups": [
+        {
+            "platform": "Afreeca",
+            "output": ".\\first",
+            "format": "mp4",
+            "cookies": ".\\cookies\\cookies_first.txt",
+            "users": [
+                {
+                    "id": "aaa",
+                    "name": "ㅁㅁㅁ",
+                    "headers": {
+                        "Referer": "https://www.google.com/"
+                    }
+                }
+            ]
+        },
+        {
+            "platform": "Afreeca",
+            "format": "ts",
+            "cookies": ".\\cookies\\cookies_second.txt",
+            "proxy": "socks5://127.0.0.1:7890",
+            "users": [
+                {
+                    "id": "bbb"
+                },
+                {
+                    "id": "ccc",
+                    "name": "ㅇㅇㅇ"
+                }
+            ]
+        },
+        {
+            "platform": "Afreeca",
+            "output": ".\\third",
+            "interval": 60,
+            "format": "flv",
+            "cookies": ".\\cookies\\cookies_third.txt",
+            "users": [
+                {
+                    "id": "ddd"
+                },
+                {
+                    "id": "eee",
+                    "name": "ㅎㅎㅎ"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+# config.py
+
+# Define class constants for JSON keys
+KEY_PLATFORM = "platform"
+KEY_ID = "id"
+KEY_NAME = "name"
+KEY_INTERVAL = "interval"
+KEY_FORMAT = "format"
+KEY_OUTPUT = "output"
+KEY_PROXY = "proxy"
+KEY_COOKIES = "cookies"
+KEY_HEADERS = "headers"
+KEY_GROUPS = "groups"
+KEY_USERS = "users"
+
+# Define required keys
+REQUIRED_GLOBAL_KEYS = [KEY_INTERVAL, KEY_FORMAT, KEY_OUTPUT, KEY_PROXY, KEY_COOKIES, KEY_HEADERS, KEY_GROUPS]
+REQUIRED_GROUP_KEYS = [KEY_PLATFORM, KEY_USERS]
+REQUIRED_USER_KEYS = [KEY_ID]
+
+# Define keys for merging options
+GLOBAL_KEYS = [KEY_PLATFORM, KEY_INTERVAL, KEY_FORMAT, KEY_OUTPUT, KEY_PROXY, KEY_COOKIES, KEY_HEADERS]
+USER_KEYS = [KEY_PLATFORM, KEY_ID, KEY_NAME, KEY_INTERVAL, KEY_FORMAT, KEY_OUTPUT, KEY_PROXY, KEY_COOKIES, KEY_HEADERS]
+
+# Argument map for command line arguments
+ARG_MAP = {KEY_NAME: "-n", KEY_INTERVAL: "-i", KEY_FORMAT: "-f", KEY_OUTPUT: "-o", KEY_PROXY: "-p", KEY_COOKIES: "-c", KEY_HEADERS: "-H"}
