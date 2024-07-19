@@ -1,0 +1,26 @@
+[project]
+name = "test-arena"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "pikamonvvs", email = "pikamonvvs@naver.com"},
+]
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "httpx>=0.27.0",
+    "streamlink>=6.8.3",
+    "anyio>=4.4.0",
+    "loguru>=0.7.2",
+    "httpx-socks>=0.9.1",
+    "requests>=2.32.3",
+    "types-requests>=2.32.0.20240712",
+    "aiohttp>=3.9.5",
+    "bs4>=0.0.2",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
