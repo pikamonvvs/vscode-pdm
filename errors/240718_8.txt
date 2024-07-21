@@ -1,0 +1,1439 @@
+PS C:\Users\lunar\Desktop\Outputs\AfreecaLiveRecorder> .\Afreeca.exe Afreeca durim1028 -o "." -c ".\cookies\cookies.txt"
+2024-07-17 23:49:53.128 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] self.cookies:  .\cookies\cookies.txt
+2024-07-17 23:49:53.128 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] self.cookies:  PdboxUser=uid%3Dlunar456th%26uno%3D16032976%26age%3D31%26sex%3DA%26A%3DAAE%26B%3DBADB%26unick%3D%EA%B7%80%EC%97%AC%EC%9B%8C%EC%9C%B5vv%26apply_date%3D1204975938%26name_chk%3D1%26sess_adult_chk%3D1%26broad_name_chk%3D1%26change_password%3D1%26chnnl_cd%3D1%26chnnl_name_chk%3D1;RDB=c80300000000004b52000000000000000000000000000000010000001f1f0000000000000001;_ausa=0x68af7687;AbroadVod=FAIL;VodAutoPlay=off;isBbs=1;NextChangePwd=1;PdboxTicket=.A32.7bbT56vyHM9fKZk.SNEejBSSDWnEMacKFvaiFLAwgNa86vL-Z4E-BCzu_gOc25PHMnkyWbVCi2D8z3DjFvYIxg94XhBJ9jFHopm-oEmH816mjenm4C1thp3Jt1qwRtYdVU1C21BAIsdNIF6QYgWm-J0tmjLadUqii4lxru_ZzZkOZk1tg782Fuh4qWDOUoz6GGFG2TiC2jpW8X33AANeWtlPe9vQR37hCEqeKJBMjoj2i-_rCzOBe3QsUTdpoYEKBgGo1aXFrfevcsFCzpfK-seBTarF1buElFSXs_COEhs3MbnXRMhCrCMZctegQpQHfDyK-OXvjIc9BQm-WMtIISfWWZQfw_MbJ16a7SoTqn-oLrugAQBWHnqSSQs6M5wxgnbacIz1X6eFTVYC1mH4WptlMySkdpNy9FrwGm-8z9qFsFGyz8t-0QuGl-1OiXJLFoomIxbTUIDgQ8Z2xjcn6wZlvcicNUHM480J8GVJKgapmPNEX_S3w_52rAY3XPpWF28ONr8gRLsmq_dyO2Dz0G0NY73PbBtvcKOVWmxyjUP9Y7cwU4Mv2oPAo1iGQ41uxBosvgcCFrkOsndVuBQ39rFz6W3pub5vSVN5l2ob4BBthT5v8Zj0EtBROiswmHXlUPQQHVgtErpbvqp8KwzvRyfLu2h25VD9J7-wAA;_au=b5d4cf903ac8bccfc45e3d553ad1554c;_au3rd=b5d4cf903ac8bccfc45e3d553ad1554c;_ausb=0x1068be5b;AbroadChk=FAIL;PdboxBbs=lunar456th;PdboxSaveTicket=.A32.7bbT56vyHM9fKZk.BoTHRPbeDGXFNDmnaucHmQ;theme=dark
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] =============================
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] platform: Afreeca
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] id: durim1028
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] name: durim1028
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] interval: 10
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] headers: {'User-Agent': 'Chrome'}
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] cookies: {'PdboxUser': 'uid%3Dlunar456th%26uno%3D16032976%26age%3D31%26sex%3DA%26A%3DAAE%26B%3DBADB%26unick%3D%EA%B7%80%EC%97%AC%EC%9B%8C%EC%9C%B5vv%26apply_date%3D1204975938%26name_chk%3D1%26sess_adult_chk%3D1%26broad_name_chk%3D1%26change_password%3D1%26chnnl_cd%3D1%26chnnl_name_chk%3D1', 'RDB': 'c80300000000004b52000000000000000000000000000000010000001f1f0000000000000001', '_ausa': '0x68af7687', 'AbroadVod': 'FAIL', 'VodAutoPlay': 'off', 'isBbs': '1', 'NextChangePwd': '1', 'PdboxTicket': '.A32.7bbT56vyHM9fKZk.SNEejBSSDWnEMacKFvaiFLAwgNa86vL-Z4E-BCzu_gOc25PHMnkyWbVCi2D8z3DjFvYIxg94XhBJ9jFHopm-oEmH816mjenm4C1thp3Jt1qwRtYdVU1C21BAIsdNIF6QYgWm-J0tmjLadUqii4lxru_ZzZkOZk1tg782Fuh4qWDOUoz6GGFG2TiC2jpW8X33AANeWtlPe9vQR37hCEqeKJBMjoj2i-_rCzOBe3QsUTdpoYEKBgGo1aXFrfevcsFCzpfK-seBTarF1buElFSXs_COEhs3MbnXRMhCrCMZctegQpQHfDyK-OXvjIc9BQm-WMtIISfWWZQfw_MbJ16a7SoTqn-oLrugAQBWHnqSSQs6M5wxgnbacIz1X6eFTVYC1mH4WptlMySkdpNy9FrwGm-8z9qFsFGyz8t-0QuGl-1OiXJLFoomIxbTUIDgQ8Z2xjcn6wZlvcicNUHM480J8GVJKgapmPNEX_S3w_52rAY3XPpWF28ONr8gRLsmq_dyO2Dz0G0NY73PbBtvcKOVWmxyjUP9Y7cwU4Mv2oPAo1iGQ41uxBosvgcCFrkOsndVuBQ39rFz6W3pub5vSVN5l2ob4BBthT5v8Zj0EtBROiswmHXlUPQQHVgtErpbvqp8KwzvRyfLu2h25VD9J7-wAA', '_au': 'b5d4cf903ac8bccfc45e3d553ad1554c', '_au3rd': 'b5d4cf903ac8bccfc45e3d553ad1554c', '_ausb': '0x1068be5b', 'AbroadChk': 'FAIL', 'PdboxBbs': 'lunar456th', 'PdboxSaveTicket': '.A32.7bbT56vyHM9fKZk.BoTHRPbeDGXFNDmnaucHmQ', 'theme': 'dark'}
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] format: ts
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] proxy: None
+2024-07-17 23:49:53.503 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] output: .
+2024-07-17 23:49:53.518 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] =============================
+2024-07-17 23:49:53.518 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Checking live stream status
+Stream is password protected
+2024-07-18 18:48:47.030 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.48.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(seconds=68335, microseconds=292525), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 65, 'message': '[Afreeca][durim1028] No available live stream: [2024.07.18 18.48.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts', 'module': 'utils', 'name': 'utils.utils', 'process': (id=5180, name='MainProcess'), 'thread': (id=12744, name='asyncio_0'), 'time': datetime(2024, 7, 18, 18, 48, 47, 30603, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 290, in _terminate_file
+  File "loguru\_file_sink.py", line 84, in retention_age
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'logs\\log_2024-07-14.log'
+--- End of logging error ---
+Stream is password protected
+2024-07-18 18:48:57.584 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.48.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:49:08.341 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.49.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:49:18.910 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.49.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:49:29.463 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.49.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:49:40.033 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.49.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:49:50.588 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.49.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:50:01.066 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.50.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:50:11.574 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.50.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:50:22.066 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.50.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:50:32.558 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.50.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:50:43.003 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.50.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:50:53.512 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.50.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:51:04.005 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.51.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:51:14.998 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.51.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:51:25.443 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.51.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:51:36.012 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.51.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:51:46.613 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.51.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:51:57.090 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.51.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:52:07.584 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.52.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:52:18.060 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.52.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:52:28.551 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.52.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:52:39.059 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.52.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:52:49.581 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.52.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:53:00.088 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.53.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:53:10.814 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.53.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:53:21.305 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.53.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:53:31.970 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.53.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:53:42.476 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.53.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:53:52.999 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.53.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:54:03.490 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.54.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:54:14.030 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.54.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:54:24.489 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.54.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:54:35.043 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.54.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:54:45.629 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.54.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:54:56.058 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.54.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:55:06.532 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.55.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:55:17.150 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.55.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:55:27.922 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.55.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:55:38.399 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.55.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:55:48.858 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.55.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:55:59.584 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.55.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:56:10.045 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.56.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:56:20.630 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.56.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:56:31.152 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.56.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:56:41.770 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.56.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:56:52.293 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.56.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:57:02.816 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.57.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:57:13.309 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.57.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:57:23.862 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.57.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:57:34.384 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.57.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:57:44.892 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.57.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:57:55.462 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.57.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:58:06.111 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.58.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:58:16.666 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.58.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:58:27.297 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.58.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:58:37.959 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.58.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:58:48.436 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.58.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:58:58.880 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.58.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:59:09.387 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.59.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:59:19.879 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.59.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:59:30.385 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.59.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:59:40.970 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.59.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 18:59:51.430 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 18.59.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:00:01.984 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.00.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:00:12.554 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.00.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:00:23.217 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.00.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:00:33.694 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.00.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:00:44.264 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.00.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:00:54.883 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.00.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:01:05.530 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.01.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:01:16.116 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.01.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:01:26.592 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.01.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:01:37.073 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.01.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:01:47.543 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.01.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:01:58.019 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.01.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:02:08.574 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.02.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:02:19.174 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.02.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:02:29.681 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.02.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:02:40.252 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.02.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:02:50.697 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.02.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:03:01.234 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.03.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:03:11.741 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.03.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:03:22.248 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.03.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:03:32.912 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.03.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:03:43.451 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.03.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:03:53.941 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.03.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:04:04.433 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.04.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:04:14.877 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.04.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:04:25.403 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.04.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:04:35.987 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.04.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:04:46.511 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.04.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:04:57.003 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.04.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:05:07.496 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.05.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:05:18.035 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.05.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:05:28.559 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.05.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:05:39.048 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.05.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:05:49.525 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.05.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:06:00.033 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.06.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:06:10.525 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.06.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:06:21.017 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.06.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:06:31.510 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.06.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:06:42.064 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.06.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:06:52.540 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.06.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:07:03.063 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.07.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:07:13.602 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.07.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:07:24.077 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.07.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:07:34.570 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.07.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:07:45.077 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.07.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:07:55.568 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.07.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:08:06.092 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.08.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:08:16.615 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.08.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:08:27.123 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.08.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:08:37.597 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.08.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:08:48.074 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.08.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:08:58.549 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.08.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:09:09.040 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.09.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:09:19.548 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.09.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:09:30.070 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.09.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:09:40.530 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.09.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:09:51.021 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.09.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:10:01.497 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.10.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:10:11.926 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.10.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:10:22.370 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.10.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:10:32.831 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.10.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:10:43.338 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.10.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:10:54.033 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.10.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:11:04.555 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.11.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:11:15.047 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.11.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:11:25.507 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.11.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:11:35.999 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.11.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:11:46.476 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.11.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:11:56.920 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.11.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:12:07.383 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.12.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:12:17.844 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.12.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:12:28.336 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.12.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:12:38.844 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.12.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:12:49.305 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.12.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:12:59.753 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.12.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:13:10.259 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.13.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:13:20.750 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.13.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:13:31.337 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.13.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:13:41.923 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.13.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:13:52.507 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.13.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:14:02.982 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.14.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:14:13.646 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.14.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:14:24.230 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.14.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:14:34.910 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.14.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:14:45.369 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.14.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:14:55.846 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.14.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:15:06.448 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.15.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:15:16.908 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.15.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:15:27.415 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.15.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:15:37.924 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.15.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:15:48.368 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.15.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:15:58.844 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.15.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:16:09.352 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.16.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:16:19.860 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.16.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:16:30.350 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.16.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:16:40.843 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.16.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:16:51.334 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.16.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:17:02.125 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.17.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:17:12.727 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.17.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:17:23.265 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.17.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:17:33.789 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.17.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:17:44.295 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.17.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:17:54.755 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.17.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:18:05.310 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.18.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:18:15.834 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.18.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:18:26.311 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.18.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:18:36.801 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.18.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:18:47.322 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.18.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:18:58.112 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.18.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:19:08.571 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.19.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:19:19.125 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.19.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:19:29.648 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.19.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:19:40.169 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.19.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:19:50.677 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.19.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:20:01.201 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.20.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:20:11.693 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.20.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:20:22.138 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.20.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:20:32.644 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.20.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:20:43.089 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.20.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:20:53.580 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.20.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:21:04.072 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.21.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:21:14.547 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.21.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:21:25.148 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.21.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:21:35.844 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.21.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:21:46.401 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.21.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:21:56.907 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.21.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:22:07.401 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.22.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:22:18.237 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.22.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:22:28.714 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.22.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:22:39.251 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.22.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:22:49.789 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.22.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:23:00.248 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.23.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:23:10.772 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.23.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:23:21.216 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.23.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:23:31.739 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.23.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:23:42.201 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.23.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:23:52.806 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.23.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:24:03.359 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.24.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:24:13.867 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.24.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:24:24.328 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.24.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:24:34.943 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.24.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:24:45.622 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.24.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:24:56.145 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.24.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:25:06.639 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.25.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:25:17.131 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.25.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:25:27.637 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.25.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:25:38.190 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.25.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:25:48.651 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.25.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:25:59.206 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.25.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:26:09.762 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.26.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:26:20.271 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.26.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:26:31.076 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.26.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:26:41.569 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.26.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:26:52.171 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.26.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:27:02.757 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.27.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:27:13.233 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.27.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:27:23.707 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.27.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:27:34.183 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.27.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:27:44.646 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.27.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:27:55.169 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.27.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:28:05.662 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.28.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:28:16.121 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.28.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:28:26.628 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.28.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:28:37.150 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.28.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:28:47.860 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.28.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:28:58.352 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.28.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:29:08.844 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.29.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:29:19.432 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.29.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:29:29.985 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.29.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:29:40.525 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.29.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:29:51.001 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.29.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:30:01.477 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.30.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:30:11.937 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.30.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:30:22.443 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.30.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:30:32.918 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.30.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:30:43.456 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.30.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:30:53.947 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.30.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:31:04.409 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.31.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:31:14.916 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.31.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:31:25.533 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.31.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:31:36.290 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.31.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:31:46.781 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.31.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:31:57.303 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.31.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:32:07.907 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.32.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:32:18.696 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.32.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:32:29.155 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.32.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:32:39.617 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.32.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:32:50.154 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.32.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:33:00.646 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.33.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:33:11.154 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.33.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:33:21.630 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.33.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:33:32.138 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.33.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:33:42.628 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.33.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:33:53.198 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.33.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:34:03.784 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.34.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:34:14.291 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.34.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:34:24.766 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.34.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:34:35.274 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.34.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:34:45.782 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.34.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:34:56.260 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.34.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:35:06.812 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.35.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:35:17.318 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.35.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:35:27.809 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.35.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:35:38.364 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.35.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:35:48.887 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.35.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:35:59.409 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.35.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:36:09.916 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.36.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:36:20.488 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.36.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:36:31.089 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.36.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:36:41.551 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.36.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:36:52.013 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.36.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:37:02.522 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.37.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:37:13.031 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.37.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:37:23.521 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.37.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:37:34.122 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.37.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:37:44.661 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.37.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:37:55.200 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.37.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:38:05.676 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.38.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:38:16.137 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.38.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:38:26.599 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.38.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:38:37.058 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.38.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:38:47.519 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.38.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:38:57.980 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.38.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:39:08.408 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.39.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:39:18.947 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.39.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:39:29.641 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.39.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:39:40.132 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.39.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:39:50.578 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.39.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:40:01.069 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.40.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:40:11.561 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.40.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:40:22.021 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.40.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:40:32.527 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.40.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:40:43.161 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.40.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:40:53.733 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.40.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:41:04.740 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.41.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:41:15.230 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.41.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:41:25.754 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.41.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:41:36.230 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.41.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:41:46.675 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.41.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:41:57.214 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.41.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:42:07.910 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.42.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:42:18.403 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.42.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:42:28.908 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.42.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:42:39.382 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.42.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:42:49.889 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.42.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:43:00.491 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.43.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:43:11.061 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.43.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:43:21.553 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.43.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:43:32.030 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.43.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:43:42.522 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.43.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:43:53.075 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.43.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:44:03.568 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.44.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:44:14.075 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.44.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:44:24.583 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.44.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:44:35.075 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.44.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:44:45.535 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.44.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:44:56.011 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.44.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:45:06.487 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.45.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:45:16.964 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.45.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:45:27.533 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.45.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:45:38.134 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.45.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:45:48.859 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.45.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:45:59.587 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.45.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:46:10.203 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.46.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:46:20.978 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.46.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:46:31.547 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.46.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:46:42.164 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.46.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:46:52.749 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.46.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:47:03.177 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.47.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:47:13.685 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.47.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:47:24.160 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.47.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:47:34.683 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.47.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:47:45.362 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.47.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:47:55.853 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.47.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:48:06.327 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.48.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:48:16.788 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.48.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:48:27.248 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.48.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:48:37.739 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.48.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:48:48.216 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.48.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:48:58.786 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.48.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:49:09.310 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.49.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:49:19.944 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.49.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:49:30.420 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.49.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:49:40.912 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.49.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:49:51.374 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.49.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:50:01.866 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.50.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:50:12.357 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.50.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:50:22.897 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.50.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:50:33.358 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.50.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:50:43.849 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.50.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:50:54.310 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.50.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:51:04.803 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.51.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:51:15.279 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.51.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:51:25.724 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.51.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:51:36.233 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.51.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:51:46.725 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.51.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:51:57.216 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.51.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:52:07.661 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.52.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:52:18.136 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.52.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:52:28.644 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.52.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:52:39.104 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.52.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:52:49.690 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.52.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:53:00.243 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.53.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:53:10.813 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.53.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:53:21.304 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.53.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:53:31.798 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.53.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:53:42.463 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.53.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:53:52.940 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.53.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:54:03.400 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.54.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:54:14.910 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.54.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:54:25.339 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.54.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:54:35.955 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.54.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:54:46.494 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.54.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:54:56.955 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.54.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:55:07.416 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.55.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:55:17.892 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.55.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:55:28.431 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.55.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:55:38.891 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.55.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:55:49.399 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.55.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:55:59.845 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.55.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:56:10.431 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.56.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:56:20.906 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.56.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:56:31.412 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.56.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:56:41.980 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.56.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:56:52.534 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.56.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:57:03.028 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.57.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:57:13.552 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.57.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:57:24.044 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.57.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:57:34.833 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.57.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:57:45.293 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.57.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:57:55.753 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.57.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:58:06.229 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.58.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:58:16.738 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.58.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:58:27.197 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.58.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:58:37.657 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.58.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:58:48.166 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.58.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:58:58.657 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.58.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:59:09.102 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.59.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:59:19.578 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.59.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:59:30.038 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.59.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:59:40.621 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.59.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 19:59:51.221 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 19.59.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:00:01.760 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.00.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:00:12.249 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.00.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:00:22.833 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.00.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:00:33.358 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.00.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:00:43.898 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.00.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:00:54.452 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.00.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:01:04.976 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.01.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:01:15.483 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.01.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:01:25.993 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.01.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:01:36.436 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.01.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:01:46.959 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.01.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:01:57.465 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.01.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:02:07.973 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.02.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:02:18.463 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.02.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:02:28.938 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.02.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:02:39.414 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.02.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:02:49.984 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.02.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:03:00.569 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.03.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:03:11.077 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.03.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:03:21.553 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.03.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:03:32.092 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.03.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:03:42.662 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.03.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:03:53.169 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.03.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:04:03.724 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.04.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:04:14.296 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.04.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:04:24.802 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.04.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:04:35.467 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.04.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:04:46.035 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.04.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:04:56.542 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.04.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:05:07.051 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.05.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:05:17.575 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.05.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:05:28.082 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.05.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:05:38.589 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.05.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:05:49.127 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.05.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:05:59.650 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.05.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:06:10.158 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.06.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:06:20.619 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.06.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:06:31.142 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.06.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:06:41.710 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.06.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:06:52.202 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.06.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:07:02.696 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.07.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:07:13.187 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.07.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:07:23.725 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.07.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:07:34.200 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.07.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:07:44.692 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.07.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:07:55.262 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.07.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:08:05.785 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.08.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:08:16.276 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.08.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:08:26.798 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.08.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:08:37.304 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.08.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:08:47.813 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.08.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:08:58.257 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.08.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:09:08.702 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.09.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:09:19.209 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.09.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:09:29.745 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.09.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:09:40.239 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.09.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:09:50.732 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.09.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:10:01.192 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.10.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:10:11.715 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.10.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:10:22.285 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.10.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:10:32.948 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.10.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:10:43.455 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.10.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:10:53.978 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.10.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:11:04.470 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.11.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:11:14.946 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.11.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:11:25.420 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.11.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:11:35.881 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.11.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:11:46.386 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.11.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:11:56.894 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.11.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:12:07.387 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.12.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:12:17.894 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.12.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:12:28.337 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.12.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:12:38.877 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.12.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:12:49.368 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.12.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:12:59.889 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.12.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:13:10.366 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.13.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:13:20.858 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.13.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:13:31.351 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.13.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:13:41.827 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.13.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:13:52.320 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.13.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:14:02.813 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.14.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:14:13.413 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.14.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:14:23.937 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.14.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:14:34.429 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.14.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:14:44.904 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.14.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:14:55.474 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.14.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:15:05.965 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.15.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:15:16.488 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.15.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:15:26.948 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.15.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:15:37.533 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.15.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:15:48.118 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.15.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:15:58.611 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.15.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:16:09.103 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.16.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:16:19.596 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.16.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:16:30.135 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.16.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:16:40.640 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.16.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:16:51.413 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.16.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:17:01.983 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.17.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:17:12.600 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.17.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:17:23.139 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.17.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:17:33.646 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.17.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:17:44.136 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.17.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:17:54.598 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.17.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:18:05.090 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.18.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:18:15.549 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.18.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:18:26.008 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.18.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:18:36.484 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.18.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:18:46.974 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.18.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:18:57.420 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.18.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:19:07.928 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.19.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:19:18.421 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.19.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:19:28.928 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.19.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:19:39.482 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.19.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:19:50.021 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.19.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:20:00.546 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.20.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:20:11.024 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.20.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:20:21.546 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.20.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:20:32.020 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.20.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:20:42.701 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.20.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:20:53.254 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.20.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:21:03.778 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.21.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:21:14.317 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.21.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:21:24.887 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.21.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:21:35.676 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.21.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:21:46.153 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.21.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:21:56.659 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.21.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:22:07.169 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.22.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:22:17.662 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.22.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:22:28.198 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.22.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:22:38.676 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.22.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:22:49.169 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.22.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:22:59.677 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.22.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:23:10.183 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.23.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:23:20.691 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.23.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:23:31.199 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.23.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:23:42.083 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.23.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:23:52.558 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.23.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:24:03.129 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.24.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:24:13.824 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.24.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:24:24.302 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.24.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:24:34.793 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.24.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:24:45.409 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.24.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:24:56.027 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.24.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:25:06.644 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.25.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:25:17.151 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.25.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:25:27.626 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.25.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:25:38.148 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.25.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:25:48.640 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.25.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:25:59.194 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.25.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:26:09.827 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.26.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:26:20.336 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.26.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:26:30.827 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.26.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:26:41.336 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.26.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:26:51.799 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.26.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:27:02.271 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.27.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:27:12.777 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.27.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:27:23.285 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.27.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:27:33.808 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.27.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:27:44.287 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.27.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:27:54.794 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.27.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:28:05.288 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.28.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:28:15.764 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.28.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:28:26.350 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.28.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:28:36.842 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.28.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:28:47.442 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.28.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:28:57.901 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.28.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:29:08.394 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.29.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:29:18.838 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.29.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:29:29.361 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.29.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:29:39.869 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.29.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:29:50.408 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.29.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:30:00.884 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.30.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:30:11.407 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.30.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:30:21.962 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.30.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:30:32.531 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.30.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:30:43.007 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.30.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:30:53.483 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.30.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:31:03.960 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.31.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:31:14.575 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.31.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:31:25.129 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.31.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:31:35.668 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.31.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:31:46.393 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.31.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:31:56.868 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.31.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:32:07.360 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.32.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:32:17.836 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.32.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:32:28.328 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.32.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:32:38.820 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.32.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:32:49.296 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.32.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:32:59.773 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.32.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:33:10.251 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.33.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:33:20.742 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.33.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:33:31.298 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.33.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:33:41.820 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.33.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:33:52.297 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.33.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:34:02.820 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.34.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:34:13.531 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.34.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:34:24.102 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.34.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:34:34.701 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.34.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:34:45.209 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.34.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:34:55.761 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.34.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:35:06.317 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.35.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:35:16.792 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.35.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:35:27.283 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.35.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:35:37.774 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.35.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:35:48.264 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.35.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:35:58.881 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.35.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:36:09.388 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.36.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:36:19.865 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.36.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:36:30.344 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.36.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:36:40.851 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.36.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:36:51.311 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.36.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:37:01.850 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.37.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:37:12.421 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.37.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:37:22.867 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.37.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:37:33.392 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.37.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:37:43.882 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.37.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:37:54.375 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.37.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:38:04.961 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.38.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:38:15.515 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.38.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:38:26.054 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.38.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:38:36.655 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.38.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:38:47.149 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.38.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:38:57.640 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.38.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:39:08.178 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.39.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:39:18.858 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.39.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:39:29.334 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.39.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:39:39.870 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.39.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:39:50.379 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.39.50][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:40:00.980 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.40.00][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:40:11.443 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.40.11][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:40:21.966 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.40.21][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:40:32.489 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.40.32][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:40:42.983 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.40.42][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:40:53.568 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.40.53][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:41:04.170 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.41.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:41:14.631 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.41.14][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:41:25.075 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.41.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:41:35.582 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.41.35][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:41:46.058 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.41.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:41:56.597 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.41.56][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:42:07.105 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.42.07][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:42:17.597 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.42.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:42:28.090 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.42.28][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:42:38.570 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.42.38][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:42:49.106 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.42.49][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:42:59.583 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.42.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:43:10.264 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.43.10][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:43:20.739 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.43.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:43:31.419 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.43.31][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:43:41.973 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.43.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:43:52.575 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.43.52][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:44:03.084 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.44.03][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:44:13.529 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.44.13][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:44:24.397 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.44.24][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:44:34.904 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.44.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:44:45.379 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.44.45][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:44:55.886 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.44.55][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:45:06.377 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.45.06][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:45:17.042 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.45.17][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:45:27.518 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.45.27][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:45:37.979 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.45.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:45:48.424 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.45.48][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:45:59.072 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.45.59][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:46:09.643 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.46.09][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:46:20.258 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.46.20][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:46:30.750 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.46.30][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:46:41.320 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.46.41][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:46:51.890 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.46.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:47:02.398 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.47.02][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:47:12.936 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.47.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:47:23.474 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.47.23][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:47:34.011 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.47.34][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:47:44.497 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.47.44][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:47:54.952 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.47.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:48:05.616 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.48.05][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:48:16.169 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.48.16][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:48:26.753 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.48.26][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:48:37.353 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.48.37][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:48:47.799 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.48.47][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:48:58.305 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.48.58][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:49:08.797 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.49.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:49:19.320 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.49.19][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:49:29.843 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.49.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:49:40.584 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.49.40][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:49:51.046 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.49.51][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:50:01.538 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.50.01][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:50:12.030 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.50.12][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:50:22.521 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.50.22][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:50:33.043 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.50.33][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:50:43.551 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.50.43][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:50:54.073 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.50.54][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:51:04.582 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.51.04][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:51:15.122 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.51.15][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:51:25.629 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.51.25][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:51:36.340 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.51.36][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:51:46.818 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.51.46][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:51:57.545 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.51.57][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:52:08.180 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.52.08][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:52:18.686 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.52.18][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:52:29.240 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.52.29][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+Stream is password protected
+2024-07-18 20:52:39.779 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] No available live stream: [2024.07.18 20.52.39][Afreeca][durim1028]두림이플 👉🏻검색 홍빠 .ts
+

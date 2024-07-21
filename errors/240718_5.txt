@@ -1,0 +1,50 @@
+2024-07-18 14:03:41.008 | INFO     | utils.utils:info:59 - [TikTok][hyunhae1026] Cannot find Room ID.
+2024-07-18 14:03:41.399 | INFO     | utils.utils:info:59 - [TikTok][hyunhae1026] room_id not found
+2024-07-18 14:03:41.399 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:51.689 | INFO     | utils.utils:info:59 - [TikTok][hyunhae1026] Cannot find Room ID.
+2024-07-18 14:03:51.832 | INFO     | utils.utils:info:59 - [TikTok][hyunhae1026] room_id not found
+2024-07-18 14:03:51.832 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:04:29.893 | ERROR    | utils.utils:error:67 - [TikTok][hyunhae1026] Exception occurred: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@hyunhae1026 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+2024-07-18 14:04:29.893 | ERROR    | utils.utils:error:67 - Exception caught in main:
+2024-07-18 14:04:29.893 | ERROR    | utils.utils:error:67 - HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@hyunhae1026 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 466, in _make_request
+  File "urllib3\connectionpool.py", line 1095, in _validate_conn
+  File "urllib3\connection.py", line 652, in connect
+  File "urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+  File "urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+  File "urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1042, in _create
+  File "ssl.py", line 1320, in do_handshake
+ssl.SSLError: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 490, in _make_request
+urllib3.exceptions.SSLError: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 519, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@hyunhae1026 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 12, in main
+  File "recorders\recorders.py", line 66, in run
+  File "recorders\recorders.py", line 386, in test_get_room_id_from_user
+  File "recorders\recorders.py", line 318, in test_get_room_id_from_user
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 698, in send
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@hyunhae1026 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))

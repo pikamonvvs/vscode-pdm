@@ -1,0 +1,96 @@
+
+PS C:\Users\lunar\Desktop\Outputs\AfreecaLiveRecorder> .\Afreeca.exe Afreeca 1004ysus -o ".."
+2024-07-13 21:20:56.887 | INFO     | utils.utils:info:56 - [Afreeca][1004ysus] Checking live stream status
+2024-07-13 21:20:57.012 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:20:57.122 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:20:57.294 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:01.349 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:01.481 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:01.587 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:01.713 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:01.840 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:01.951 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:02.078 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:02.189 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:02.522 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:02.617 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:02.744 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:02.887 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.012 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.137 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.265 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.419 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.552 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.678 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.793 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:03.918 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:04.043 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.070 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.403 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.512 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.622 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.747 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.872 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:05.982 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:06.092 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:06.235 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:06.363 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:06.489 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:06.616 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:06.731 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:07.058 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:07.184 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:07.309 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:07.434 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:07.559 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:07.716 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:08.060 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:08.392 | ERROR    | utils.utils:error:64 - [Afreeca][1004ysus] Error in live stream detection
+NoPluginError()
+2024-07-13 21:21:08.614 | WARNING  | utils.utils:warning:60 - The user has interrupted the recording. Closing the live stream.
+PS C:\Users\lunar\Desktop\Outputs\AfreecaLiveRecorder> ^C
+PS C:\Users\lunar\Desktop\Outputs\AfreecaLiveRecorder>

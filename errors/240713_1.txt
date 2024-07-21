@@ -1,0 +1,388 @@
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:32:29.322 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:32:39.656 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84108, microseconds=396157), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 32, 39, 656536, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:32:39.798 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84108, microseconds=538478), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 32, 39, 798857, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:32:39.814 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:32:50.166 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84118, microseconds=906464), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 32, 50, 166843, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:32:50.827 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84119, microseconds=567435), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 32, 50, 827814, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:32:50.839 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:33:01.207 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84129, microseconds=946858), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 1, 207237, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:01.650 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84130, microseconds=390591), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 1, 650970, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:01.650 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:33:12.028 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84140, microseconds=767921), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 12, 28300, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:12.463 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84141, microseconds=203399), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 12, 463778, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:12.463 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:33:22.788 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84151, microseconds=528326), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 22, 788705, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:22.968 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84151, microseconds=707707), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 22, 968086, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:22.968 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:33:33.355 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84162, microseconds=94859), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 33, 355238, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:33.797 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84162, microseconds=537160), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 33, 797539, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:33.813 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:33:44.170 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84172, microseconds=909896), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 44, 170275, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:44.328 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84173, microseconds=67693), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 44, 328072, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:44.328 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:33:54.673 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84183, microseconds=413597), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 54, 673976, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:54.848 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84183, microseconds=587749), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 33, 54, 848128, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:33:54.854 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:34:05.172 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84193, microseconds=911959), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 5, 172338, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:05.322 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84194, microseconds=62257), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 5, 322636, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:05.330 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:34:15.698 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84204, microseconds=437652), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 15, 698031, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:15.822 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84204, microseconds=562603), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 15, 822982, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:15.838 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:34:26.183 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84214, microseconds=922937), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 26, 183316, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:26.327 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84215, microseconds=67158), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 26, 327537, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:26.327 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:34:36.713 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84225, microseconds=452722), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 36, 713101, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:37.136 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84225, microseconds=876608), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 37, 136987, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:37.136 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:34:47.510 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84236, microseconds=250006), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 47, 510385, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:47.666 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84236, microseconds=406579), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 47, 666958, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:47.666 | INFO     | utils.utils:info:58 - Waiting 10 seconds
+2024-07-13 20:34:58.010 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] Cannot find Room ID.
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84246, microseconds=750219), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] Cannot find Room ID.', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 58, 10598, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:58.151 | ERROR    | utils.utils:error:66 - [TikTok][kkyuu_618] room_id not found
+--- Logging error in Loguru Handler #2 ---
+Record was: {'elapsed': datetime.timedelta(seconds=84246, microseconds=890872), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 66, 'message': '[TikTok][kkyuu_618] room_id not found', 'module': 'utils', 'name': 'utils.utils', 'process': (id=19928, name='MainProcess'), 'thread': (id=13708, name='MainThread'), 'time': datetime(2024, 7, 13, 20, 34, 58, 151251, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 68, in run
+  File "recorders\recorders.py", line 289, in get_room_id_from_user
+  File "recorders\recorders.py", line 281, in get_room_id_from_user
+ValueError: room_id not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 276, in _terminate_file
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.txt' -> 'C:\\Users\\lunar\\Desktop\\Outputs\\TikTokLiveRecorder\\logs\\log_error.2024-07-12_18-39-28_057280.txt'
+--- End of logging error ---
+2024-07-13 20:34:58.166 | INFO     | utils.utils:info:58 - Waiting 10 seconds

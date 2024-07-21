@@ -1,0 +1,38 @@
+
+2024-07-21 00:22:17.703 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:22:27.728 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:22:27.728 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:22:37.765 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:22:37.765 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:22:47.791 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:22:47.791 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:22:57.846 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:22:57.846 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:23:07.884 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:23:07.884 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:23:17.925 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:23:17.925 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:23:27.964 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status: CLOSE
+2024-07-21 00:23:27.964 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:23:38.005 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:23:38.005 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:23:38.005 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:23:48.030 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:23:48.030 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:23:48.030 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:23:58.038 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:23:58.038 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:23:58.038 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:24:08.079 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:24:08.079 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:24:08.079 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:24:18.103 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:24:18.103 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:24:18.103 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:24:28.235 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:24:28.235 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:24:28.235 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-21 00:24:38.289 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object is not subscriptable
+2024-07-21 00:24:38.289 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-21 00:24:38.289 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+

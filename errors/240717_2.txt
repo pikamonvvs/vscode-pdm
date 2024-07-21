@@ -1,0 +1,77 @@
+2024-07-15 01:28:39.844 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Stopped recording: [2024.07.14 23.32.07][Afreeca][durim1028]두림이.ts
+2024-07-15 01:30:00.823 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Started recording: [2024.07.15 01.30.00][Afreeca][durim1028]ㅅㅅㅎ.ts
+2024-07-15 01:30:00.838 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Obtained live stream link: [2024.07.15 01.30.00][Afreeca][durim1028]ㅅㅅㅎ.ts
+https://pc-web.stream.afreecatv.com/live-stm-09/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.flH7CipaWj3DkyzPG9NDfO1Oq67kHraBycMsEzrOa-JI10bUzfruc_3wmkd7uu_b7SGLhKVf8yBRaxICyXRrvH02vue7uHvbqKbaFAwyIA8
+2024-07-15 01:30:07.956 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Recording in progress: [2024.07.15 01.30.00][Afreeca][durim1028]ㅅㅅㅎ.ts
+[download] Written 1.07 GiB to [2024.07.15 01.30.00][Afreeca][durim1028]ㅅㅅㅎ.ts (1h06m40s @ 0 bytes/s)
+Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stm-09/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.flH7CipaWj3DkyzPG9NDfO1Oq67kHraBycMsEzrOa-JI10bUzfruc_3wmkd7uu_b7SGLhKVf8yBRaxICyXRrvH02vue7uHvbqKbaFAwyIA8 (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+2024-07-15 02:37:22.094 | WARNING  | utils.utils:warning:61 - [Afreeca][durim1028] Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: [2024.07.15 01.30.00][Afreeca][durim1028]ㅅㅅㅎ.ts
+Error when reading from stream: Read timeout, exiting
+2024-07-15 02:37:22.094 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Stopped recording: [2024.07.15 01.30.00][Afreeca][durim1028]ㅅㅅㅎ.ts
+2024-07-16 13:28:44.583 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Started recording: [2024.07.16 13.28.44][Afreeca][durim1028]두리미부이로그.ts
+2024-07-16 13:28:44.583 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Obtained live stream link: [2024.07.16 13.28.44][Afreeca][durim1028]두리미부이로그.ts
+https://pc-web.stream.afreecatv.com/live-stmc-21/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.D2a-n_1b1CrtsUYR0N3jJe4kB9G0kqa0qx_15F03X4tYhFSfi-A9zkgYvVAXy9kHTYIEI6uTSzv6l9W6VnuzQqox-3EXu0lGu-LyDhs_uLE
+2024-07-16 13:28:50.683 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Recording in progress: [2024.07.16 13.28.44][Afreeca][durim1028]두리미부이로그.ts
+[download] Written 698.43 MiB to [2024.07.16 13.28.44][Afreeca][durim1028]두리미부이로그.ts (42m53s @ 0 bytes/s)
+Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-21/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.D2a-n_1b1CrtsUYR0N3jJe4kB9G0kqa0qx_15F03X4tYhFSfi-A9zkgYvVAXy9kHTYIEI6uTSzv6l9W6VnuzQqox-3EXu0lGu-LyDhs_uLE (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+2024-07-16 14:12:00.111 | WARNING  | utils.utils:warning:61 - [Afreeca][durim1028] Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: [2024.07.16 13.28.44][Afreeca][durim1028]두리미부이로그.ts
+Error when reading from stream: Read timeout, exiting
+2024-07-16 14:12:00.111 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Stopped recording: [2024.07.16 13.28.44][Afreeca][durim1028]두리미부이로그.ts
+2024-07-16 22:16:41.213 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Started recording: [2024.07.16 22.16.41][Afreeca][durim1028]잉 ㅠㅠ.ts
+2024-07-16 22:16:41.213 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Obtained live stream link: [2024.07.16 22.16.41][Afreeca][durim1028]잉 ㅠㅠ.ts
+https://pc-web.stream.afreecatv.com/live-stmc-36/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.pwpX-0BjGtxtCl48f_UWhYwWP5ZdWa9htmFUajwBCeCAU8f-EbtakuxXd29DoiQE4LwwrLsMnuBAz5BgKEr9KRaIDzHviRNdrRyybiwXxPM
+2024-07-16 22:16:46.327 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Recording in progress: [2024.07.16 22.16.41][Afreeca][durim1028]잉 ㅠㅠ.ts
+[download] Written 11.72 GiB to [2024.07.16 22.16.41][Afreeca][durim1028]잉 ㅠㅠ.ts (3h48m21s @ 0 bytes/s)
+Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-36/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.pwpX-0BjGtxtCl48f_UWhYwWP5ZdWa9htmFUajwBCeCAU8f-EbtakuxXd29DoiQE4LwwrLsMnuBAz5BgKEr9KRaIDzHviRNdrRyybiwXxPM (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+2024-07-17 02:05:39.485 | WARNING  | utils.utils:warning:61 - [Afreeca][durim1028] Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: [2024.07.16 22.16.41][Afreeca][durim1028]잉 ㅠㅠ.ts
+Error when reading from stream: Read timeout, exiting
+2024-07-17 02:05:39.485 | INFO     | utils.utils:info:57 - [Afreeca][durim1028] Stopped recording: [2024.07.16 22.16.41][Afreeca][durim1028]잉 ㅠㅠ.ts
+2024-07-17 21:03:14.784 | ERROR    | utils.utils:error:65 - [Afreeca][durim1028] [Afreeca][durim1028]Error in live stream detection request
+ConnectTimeout('')
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(days=3, seconds=4989, microseconds=709667), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 65, 'message': "[Afreeca][durim1028] [Afreeca][durim1028]Error in live stream detection request\nConnectTimeout('')", 'module': 'utils', 'name': 'utils.utils', 'process': (id=7348, name='MainProcess'), 'thread': (id=13980, name='MainThread'), 'time': datetime(2024, 7, 17, 21, 3, 14, 784730, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+  File "httpx\_transports\default.py", line 373, in handle_async_request
+  File "httpcore\_async\connection_pool.py", line 216, in handle_async_request
+  File "httpcore\_async\connection_pool.py", line 196, in handle_async_request
+  File "httpcore\_async\connection.py", line 99, in handle_async_request
+  File "httpcore\_async\connection.py", line 76, in handle_async_request
+  File "httpcore\_async\connection.py", line 154, in _connect
+  File "httpcore\_backends\anyio.py", line 68, in start_tls
+  File "contextlib.py", line 158, in __exit__
+  File "httpcore\_exceptions.py", line 14, in map_exceptions
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 70, in request
+  File "httpx\_client.py", line 1574, in request
+  File "httpx\_client.py", line 1661, in send
+  File "httpx\_client.py", line 1689, in _send_handling_auth
+  File "httpx\_client.py", line 1726, in _send_handling_redirects
+  File "httpx\_client.py", line 1763, in _send_single_request
+  File "httpx\_transports\default.py", line 372, in handle_async_request
+  File "contextlib.py", line 158, in __exit__
+  File "httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+httpx.ConnectTimeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 53, in start
+  File "recorders\recorders.py", line 206, in run
+  File "recorders\recorders.py", line 75, in request
+ConnectionError: [Afreeca][durim1028]Error in live stream detection request
+ConnectTimeout('')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 290, in _terminate_file
+  File "loguru\_file_sink.py", line 84, in retention_age
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'logs\\log_2024-07-14.log'
+--- End of logging error ---

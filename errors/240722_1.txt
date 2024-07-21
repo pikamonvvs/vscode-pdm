@@ -1,0 +1,13 @@
+
+2024-07-22 00:12:40.243 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-22 00:12:40.354 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-22 00:12:40.354 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-22 00:12:50.690 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-22 00:12:50.817 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-22 00:12:50.817 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-22 00:13:02.094 | ERROR    | utils.utils:error:67 - [TikTok][ming_cong2] Cannot find user info.
+2024-07-22 00:13:02.219 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-22 00:13:02.219 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-22 00:13:12.545 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-22 00:13:12.657 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-22 00:13:12.657 | INFO     | utils.utils:info:59 - Waiting 10 seconds

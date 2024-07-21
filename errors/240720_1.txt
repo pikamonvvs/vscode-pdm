@@ -1,0 +1,69 @@
+[download] Written 1.26 GiB to [2024.07.20 02.05.01][Afreeca][aay2014]생) 다시보기 x  시스루 + 마이크로 팬츠 .ts (31m30s @ 0 bytes/s)
+2024-07-20 02:36:32.339 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.20 02.05.01][Afreeca][aay2014]생) 다시보기 x  시스루 + 마이크로 팬츠 .ts
+2024-07-20 02:36:43.137 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Started recording: [2024.07.20 02.36.43][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+2024-07-20 02:36:43.137 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Obtained live stream link: [2024.07.20 02.36.43][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+https://pc-web.stream.afreecatv.com/live-stm-13/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.FAlZTXJCZ-VAtUlykNA4e1cGpBLp44mF13w4yG0eYlEK5rjPXBlzu6RAz7FJ2InJGeuoGKnVLdSACQt0shmhJJHqfjA1tek814ouU1puoQM
+2024-07-20 02:36:43.263 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Recording in progress: [2024.07.20 02.36.43][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+[download] Written 3.99 MiB to [2024.07.20 02.36.43][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts (31s @ 0 bytes/s)                                                                                 No new segments in playlist for more than 30.00s. Stopping...
+[download] Written 3.99 MiB to [2024.07.20 02.36.43][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts (31s @ 0 bytes/s)
+2024-07-20 02:37:14.652 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.20 02.36.43][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+2024-07-20 02:37:25.277 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Started recording: [2024.07.20 02.37.25][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+2024-07-20 02:37:25.287 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Obtained live stream link: [2024.07.20 02.37.25][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+https://pc-web.stream.afreecatv.com/live-stm-13/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.FAlZTXJCZ-VAtUlykNA4e1cGpBLp44mF13w4yG0eYlEK5rjPXBlzu6RAz7FJ2InJGeuoGKnVLdSACQt0shmhJJHqfjA1tek814ouU1puoQM
+Unable to open URL: https://pc-web.stream.afreecatv.com/live-stm-13/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.FAlZTXJCZ-VAtUlykNA4e1cGpBLp44mF13w4yG0eYlEK5rjPXBlzu6RAz7FJ2InJGeuoGKnVLdSACQt0shmhJJHqfjA1tek814ouU1puoQM (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+2024-07-20 02:38:09.730 | WARNING  | utils.utils:warning:61 - [Afreeca][aay2014] Error opening live stream. Please check if the streamer is live: [2024.07.20 02.37.25][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+No data returned from stream
+2024-07-20 02:38:09.730 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.20 02.37.25][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+2024-07-20 02:38:20.136 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] Error in live stream detection
+PluginError('Unable to open URL: https://livestream-manager.afreecatv.com/broad_stream_assign.html (400 Client Error: Bad Request for url: https://livestream-manager.afreecatv.com/broad_stream_assign.html?return_type=gs_cdn_pc_web&broad_key=273871994-common-sd-hls)')
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(days=5, seconds=25100, microseconds=61383), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 65, 'message': "[Afreeca][aay2014] Error in live stream detection\nPluginError('Unable to open URL: https://livestream-manager.afreecatv.com/broad_stream_assign.html (400 Client Error: Bad Request for url: https://livestream-manager.afreecatv.com/broad_stream_assign.html?return_type=gs_cdn_pc_web&broad_key=273871994-common-sd-hls)')", 'module': 'utils', 'name': 'utils.utils', 'process': (id=5972, name='MainProcess'), 'thread': (id=14172, name='MainThread'), 'time': datetime(2024, 7, 20, 2, 38, 20, 136579, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 53, in start
+  File "recorders\recorders.py", line 214, in run
+  File "streamlink\session\session.py", line 148, in streams
+  File "streamlink\plugin\plugin.py", line 387, in streams
+  File "C:\Users\lunar\AppData\Local\Temp\_MEI13522\streamlink\plugins\afreeca.py", line 225, in _get_streams
+    if hls_stream := self._get_hls_stream(broadcast, username, item["name"], rmd, stream_password):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lunar\AppData\Local\Temp\_MEI13522\streamlink\plugins\afreeca.py", line 149, in _get_hls_stream
+    info = self._get_stream_info(broadcast, quality, rmd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lunar\AppData\Local\Temp\_MEI13522\streamlink\plugins\afreeca.py", line 139, in _get_stream_info
+    res = self.session.http.get(f"{rmd}/broad_stream_assign.html", params=params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "requests\sessions.py", line 602, in get
+  File "streamlink\session\http.py", line 191, in request
+streamlink.exceptions.PluginError: Unable to open URL: https://livestream-manager.afreecatv.com/broad_stream_assign.html (400 Client Error: Bad Request for url: https://livestream-manager.afreecatv.com/broad_stream_assign.html?return_type=gs_cdn_pc_web&broad_key=273871994-common-sd-hls)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 290, in _terminate_file
+  File "loguru\_file_sink.py", line 84, in retention_age
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'logs\\log_2024-07-14.log'
+--- End of logging error ---
+2024-07-20 02:38:20.513 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] Error in live stream detection
+PluginError('Unable to open URL: https://livestream-manager.afreecatv.com/broad_stream_assign.html (400 Client Error: Bad Request for url: https://livestream-manager.afreecatv.com/broad_stream_assign.html?return_type=gs_cdn_pc_web&broad_key=273871994-common-sd-hls)')
+2024-07-20 02:38:20.902 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] Error in live stream detection
+PluginError('Unable to open URL: https://livestream-manager.afreecatv.com/broad_stream_assign.html (400 Client Error: Bad Request for url: https://livestream-manager.afreecatv.com/broad_stream_assign.html?return_type=gs_cdn_pc_web&broad_key=273871994-common-sd-hls)')
+2024-07-20 02:38:21.590 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Started recording: [2024.07.20 02.38.21][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+2024-07-20 02:38:21.590 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Obtained live stream link: [2024.07.20 02.38.21][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+https://pc-web.stream.afreecatv.com/live-stmc-27/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.FAlZTXJCZ-VAtUlykNA4e1cGpBLp44mF13w4yG0eYlEK5rjPXBlzu6RAz7FJ2InJGeuoGKnVLdSACQt0shmhJJHqfjA1tek814ouU1puoQM
+Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-27/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.FAlZTXJCZ-VAtUlykNA4e1cGpBLp44mF13w4yG0eYlEK5rjPXBlzu6RAz7FJ2InJGeuoGKnVLdSACQt0shmhJJHqfjA1tek814ouU1puoQM (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+2024-07-20 02:39:43.808 | WARNING  | utils.utils:warning:61 - [Afreeca][aay2014] Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: [2024.07.20 02.38.21][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+Failed to read data from stream: Read timeout
+2024-07-20 02:39:43.808 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.20 02.38.21][Afreeca][aay2014]생) 다시보기 x  300개 차면 가요 ㄱㄱ.ts
+2024-07-20 02:39:54.467 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Started recording: [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts
+2024-07-20 02:39:54.467 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Obtained live stream link: [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts
+https://pc-web.stream.afreecatv.com/live-stm-16/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.ESgXApVk3urHP4nrwJTznMl0vzf3oCUOr1MBHHHXGIT2OGN3P055hE3XxHyQetmTV11qYsIwUW1-q7T7focQk46qWVoY1LCNl4TdyK-5zt0
+2024-07-20 02:39:54.558 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Recording in progress: [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts
+[download] Written 4.20 GiB to [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts (1h22m38s @ 410.25 KiB/s)                                                                            Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stm-16/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.ESgXApVk3urHP4nrwJTznMl0vzf3oCUOr1MBHHHXGIT2OGN3P055hE3XxHyQetmTV11qYsIwUW1-q7T7focQk46qWVoY1LCNl4TdyK-5zt0 (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stm-16/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.ESgXApVk3urHP4nrwJTznMl0vzf3oCUOr1MBHHHXGIT2OGN3P055hE3XxHyQetmTV11qYsIwUW1-q7T7focQk46qWVoY1LCNl4TdyK-5zt0&aid=.A32.7bbT56vyHM9fKZk.ESgXApVk3urHP4nrwJTznMl0vzf3oCUOr1MBHHHXGIT2OGN3P055hE3XxHyQetmTV11qYsIwUW1-q7T7focQk46qWVoY1LCNl4TdyK-5zt0)
+[download] Written 4.20 GiB to [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts (1h23m00s @ 0 bytes/s)                                                                               Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stm-16/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.ESgXApVk3urHP4nrwJTznMl0vzf3oCUOr1MBHHHXGIT2OGN3P055hE3XxHyQetmTV11qYsIwUW1-q7T7focQk46qWVoY1LCNl4TdyK-5zt0 (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+[download] Written 4.20 GiB to [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts (1h23m26s @ 0 bytes/s)
+Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stm-16/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.ESgXApVk3urHP4nrwJTznMl0vzf3oCUOr1MBHHHXGIT2OGN3P055hE3XxHyQetmTV11qYsIwUW1-q7T7focQk46qWVoY1LCNl4TdyK-5zt0 (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+2024-07-20 04:04:17.450 | WARNING  | utils.utils:warning:61 - [Afreeca][aay2014] Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts
+Error when reading from stream: Read timeout, exiting
+2024-07-20 04:04:17.450 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.20 02.39.54][Afreeca][aay2014]생)  다시보기 x  45분에 칼시작 ㄱ.ts

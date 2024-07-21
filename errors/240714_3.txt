@@ -1,0 +1,215 @@
+PS C:\Users\lunar\Desktop\Outputs\AfreecaLiveRecorder> .\Afreeca.exe Afreeca aay2014 -o "."
+2024-07-14 03:23:47.262 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Checking live stream status
+2024-07-14 15:31:42.527 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Started recording: [2024.07.14 15.31.42][Afreeca][aay2014]생) 민소매 셔츠  하아...ts
+2024-07-14 15:31:42.527 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Obtained live stream link: [2024.07.14 15.31.42][Afreeca][aay2014]생) 민소매 셔츠  하아...ts
+https://pc-web.stream.afreecatv.com/live-stmc-30/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.lQ3mjfM-FD82fXFA4XoLX6uRv4ohNSX-mhPVPRFCgTcpwbe798VqKK0UdUW3q0afo8kxxzqMbUSyPMzA9LBH4qYUYojd_-YtseThDBiF1zY
+2024-07-14 15:31:44.560 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Recording in progress: [2024.07.14 15.31.42][Afreeca][aay2014]생) 민소매 셔츠  하아...ts
+[download] Written 6.48 GiB to [2024.07.14 15.31.42][Afreeca][aay2014]생) 민소매 셔츠  하아...ts (2h19m17s @ 82.97 KiB/s)                                                                                       No new segments in playlist for more than 20.00s. Stopping...
+[download] Written 6.48 GiB to [2024.07.14 15.31.42][Afreeca][aay2014]생) 민소매 셔츠  하아...ts (2h19m17s @ 83.16 KiB/s)
+2024-07-14 17:51:02.044 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.14 15.31.42][Afreeca][aay2014]생) 민소매 셔츠  하아...ts
+Login required
+2024-07-14 17:51:12.242 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.51.12][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:51:22.517 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.51.22][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:51:32.716 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.51.32][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:51:42.914 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.51.42][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:51:53.113 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.51.53][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:52:03.295 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.52.03][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:52:13.525 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.52.13][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:52:23.706 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.52.23][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:52:33.874 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.52.33][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:52:44.085 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.52.44][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:52:54.267 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.52.54][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:53:04.573 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.53.04][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:53:14.726 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.53.14][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:53:24.893 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.53.24][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:53:35.107 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.53.35][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:53:45.322 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.53.45][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:53:55.519 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.53.55][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:54:05.733 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.54.05][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:54:15.931 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.54.15][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:54:26.127 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.54.26][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:54:36.326 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.54.36][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:54:46.523 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.54.46][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:54:56.704 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.54.56][Afreeca][aay2014]생) 다시보기 x .ts
+Login required
+2024-07-14 17:55:06.918 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.55.06][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:55:17.132 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.55.17][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:55:27.331 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.55.27][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:55:37.560 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.55.37][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:55:47.742 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.55.47][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:55:57.924 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.55.57][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:56:08.138 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.56.08][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:56:18.319 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.56.18][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:56:28.564 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.56.28][Afreeca][aay2014]생) 다시보기 x.ts
+Login required
+2024-07-14 17:56:38.727 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.56.38][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:56:48.941 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.56.48][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:56:59.138 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.56.59][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:57:09.368 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.57.09][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:57:19.566 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.57.19][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:57:29.718 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.57.29][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:57:39.915 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.57.39][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:57:50.096 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.57.50][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:58:00.307 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.58.00][Afreeca][aay2014]생) 다시보기 x 팅 리방.ts
+Login required
+2024-07-14 17:58:10.504 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.58.10][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:58:20.654 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.58.20][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:58:30.820 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.58.30][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:58:40.987 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.58.40][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:58:51.152 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.58.51][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:59:01.443 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.59.01][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:59:11.656 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.59.11][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:59:21.854 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.59.21][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:59:32.067 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.59.32][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:59:42.247 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.59.42][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 17:59:52.443 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 17.59.52][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:00:02.625 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.00.02][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:00:12.776 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.00.12][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:00:22.957 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.00.22][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:00:33.157 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.00.33][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:00:43.372 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.00.43][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:00:53.600 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.00.53][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:01:03.796 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.01.03][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:01:13.993 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.01.13][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:01:24.175 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.01.24][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:01:34.389 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.01.34][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:01:44.569 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.01.44][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:01:54.751 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.01.54][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:02:04.950 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.02.04][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:02:15.149 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.02.15][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:02:25.348 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.02.25][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:02:35.530 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.02.35][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:02:45.712 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.02.45][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:02:55.923 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.02.55][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:03:06.121 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.03.06][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:03:16.322 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.03.16][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:03:26.520 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.03.26][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:03:36.703 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.03.36][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:03:46.917 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.03.46][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:03:57.131 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.03.57][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:04:07.313 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.04.07][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:04:17.542 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.04.17][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:04:27.723 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.04.27][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:04:37.904 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.04.37][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:04:48.120 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.04.48][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:04:58.350 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.04.58][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:05:08.533 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.05.08][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:05:18.795 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.05.18][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:05:28.990 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.05.28][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:05:39.171 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.05.39][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:05:49.362 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.05.49][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:05:59.566 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.05.59][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:06:09.747 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.06.09][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:06:19.916 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.06.19][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:06:30.112 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.06.30][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:06:40.342 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.06.40][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:06:50.508 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.06.50][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:07:00.691 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.07.00][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:07:10.861 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.07.10][Afreeca][aay2014]생) 다시보기 x  리방.ts
+Login required
+2024-07-14 18:07:21.027 | ERROR    | utils.utils:error:65 - [Afreeca][aay2014] No available live stream: [2024.07.14 18.07.21][Afreeca][aay2014]생) 다시보기 x  리방.ts
+2024-07-14 18:07:31.851 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Started recording: [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts
+2024-07-14 18:07:31.851 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Obtained live stream link: [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts
+https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo
+2024-07-14 18:07:31.992 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Recording in progress: [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m10s @ 430.52 KiB/s)                                                                                         Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo&aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo)
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m12s @ 287.79 KiB/s)                                                                                         Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo&aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo)
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m14s @ 93.82 KiB/s)                                                                                          Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo&aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo)
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m16s @ 0 bytes/s)                                                                                            Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo&aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo)
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m18s @ 0 bytes/s)                                                                                            Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo&aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo)
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m21s @ 0 bytes/s)                                                                                            Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (400 Client Error: Bad Request for url: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo&aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo)
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m43s @ 0 bytes/s)                                                                                            Failed to reload playlist: Unable to open URL: https://pc-web.stream.afreecatv.com/live-stmc-40/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.5QadmNh8VaksZjSzaoGqjU_z1PSXrUjWu-YafqxOAkjdU8j8Jec9aCvr6s3AWSrx0VeNzyGO8wzVLNi8I2uTS0bmfDIiNy7V4kUTSVM1Dlo (HTTPSConnectionPool(host='pc-web.stream.afreecatv.com', port=443): Read timed out. (read timeout=20.0))
+No new segments in playlist for more than 30.00s. Stopping...
+[download] Written 770.98 MiB to [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts (16m43s @ 0 bytes/s)
+2024-07-14 18:24:15.515 | INFO     | utils.utils:info:57 - [Afreeca][aay2014] Stopped recording: [2024.07.14 18.07.31][Afreeca][aay2014]생) 다시보기 x  리방.ts

@@ -1,0 +1,90 @@
+2024-07-19 02:04:11.618 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] Cannot find Room ID.
+2024-07-19 02:04:12.024 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] room_id not found
+2024-07-19 02:04:12.024 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-19 02:04:42.063 | ERROR    | utils.utils:error:67 - [TikTok][zizizixizizizi] Exception occurred: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(seconds=12431, microseconds=801975), 'exception': None, 'extra': {}, 'file': (name='utils.py', path='utils\\utils.py'), 'function': 'error', 'level': (name='ERROR', no=40, icon='❌'), 'line': 67, 'message': "[TikTok][zizizixizizizi] Exception occurred: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))", 'module': 'utils', 'name': 'utils.utils', 'process': (id=6248, name='MainProcess'), 'thread': (id=9124, name='MainThread'), 'time': datetime(2024, 7, 19, 2, 4, 42, 63429, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 536, in _make_request
+  File "urllib3\connection.py", line 464, in getresponse
+  File "http\client.py", line 1428, in getresponse
+  File "http\client.py", line 331, in begin
+  File "http\client.py", line 300, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 474, in increment
+  File "urllib3\util\util.py", line 38, in reraise
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 536, in _make_request
+  File "urllib3\connection.py", line 464, in getresponse
+  File "http\client.py", line 1428, in getresponse
+  File "http\client.py", line 331, in begin
+  File "http\client.py", line 300, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 318, in test_get_room_id_from_user
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 682, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 290, in _terminate_file
+  File "loguru\_file_sink.py", line 84, in retention_age
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'logs\\log_2024-07-14.log'
+--- End of logging error ---
+2024-07-19 02:04:42.063 | ERROR    | utils.utils:error:67 - Exception caught in main:
+2024-07-19 02:04:42.063 | ERROR    | utils.utils:error:67 - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 536, in _make_request
+  File "urllib3\connection.py", line 464, in getresponse
+  File "http\client.py", line 1428, in getresponse
+  File "http\client.py", line 331, in begin
+  File "http\client.py", line 300, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 474, in increment
+  File "urllib3\util\util.py", line 38, in reraise
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 536, in _make_request
+  File "urllib3\connection.py", line 464, in getresponse
+  File "http\client.py", line 1428, in getresponse
+  File "http\client.py", line 331, in begin
+  File "http\client.py", line 300, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 12, in main
+  File "recorders\recorders.py", line 66, in run
+  File "recorders\recorders.py", line 386, in test_get_room_id_from_user
+  File "recorders\recorders.py", line 318, in test_get_room_id_from_user
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 682, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

@@ -1,0 +1,147 @@
+This stream is for adults only
+2024-07-13 20:08:55.805 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:55.825 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:55.825 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.55
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:55.848 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.55][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:55.872 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:55.890 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:55.890 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:55.909 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.55
+2024-07-13 20:08:55.910 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:55.910 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:55.910 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:55.910 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:55.910 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:55.910 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.55][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:55.958 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:55.979 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:55.979 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:55.998 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.55
+2024-07-13 20:08:55.999 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:55.999 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:55.999 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:55.999 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:55.999 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:55.999 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.55][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:56.026 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:56.044 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:56.045 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:56.063 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.56
+2024-07-13 20:08:56.063 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:56.063 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:56.064 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:56.064 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:56.064 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:56.064 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.56][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:56.115 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.142 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.143 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.167 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.167 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.167 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.167 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.168 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.168 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.168 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.213 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.234 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.235 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.389 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.390 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.390 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.390 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.390 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.390 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.391 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.419 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.440 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.440 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.459 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.459 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.459 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.460 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.460 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.460 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.460 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.500 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.518 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.518 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.580 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.580 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.581 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.581 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.581 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.581 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.581 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.610 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.628 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.628 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.648 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.648 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.648 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.648 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.649 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.649 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.649 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.699 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.723 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.724 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.740 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.741 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.741 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.741 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.741 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.741 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.741 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.765 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.823 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.823 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.839 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.840 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.840 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.840 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.840 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.840 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.840 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.865 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.883 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.883 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.900 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:57.926 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:57.950 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:57.951 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.
+2024-07-13 20:08:57.985 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] live_time: 2024.07.13 20.08.57
+2024-07-13 20:08:57.985 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] flag: [Chzzk][김도]
+2024-07-13 20:08:57.985 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.985 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] format: ts
+2024-07-13 20:08:57.985 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] channel_name: 김도
+2024-07-13 20:08:57.986 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] title: 라비 리비
+2024-07-13 20:08:57.986 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] output_path: output\[2024.07.13 20.08.57][Chzzk][김도]라비 리비.ts
+This stream is for adults only
+2024-07-13 20:08:58.011 | ERROR    | utils.utils:error:65 - [Chzzk][김도] Cannot find any streams.
+2024-07-13 20:08:58.032 | DEBUG    | utils.utils:debug:53 - [Chzzk][김도] status: OPEN
+2024-07-13 20:08:58.032 | INFO     | utils.utils:info:57 - [Chzzk][김도] The channel is on air.

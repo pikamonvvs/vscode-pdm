@@ -1,0 +1,56 @@
+2024-07-18 14:03:20.782 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] Cannot find Room ID.
+2024-07-18 14:03:20.891 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] room_id not found
+2024-07-18 14:03:20.891 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:31.201 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] Cannot find Room ID.
+2024-07-18 14:03:31.326 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] room_id not found
+2024-07-18 14:03:31.342 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:41.618 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] Cannot find Room ID.
+2024-07-18 14:03:42.025 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] room_id not found
+2024-07-18 14:03:42.025 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:52.346 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] Cannot find Room ID.
+2024-07-18 14:03:52.847 | INFO     | utils.utils:info:59 - [TikTok][zizizixizizizi] room_id not found
+2024-07-18 14:03:52.847 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:05:27.008 | ERROR    | utils.utils:error:67 - [TikTok][zizizixizizizi] Exception occurred: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@zizizixizizizi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2024-07-18 14:05:27.008 | ERROR    | utils.utils:error:67 - Exception caught in main:
+2024-07-18 14:05:27.008 | ERROR    | utils.utils:error:67 - HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@zizizixizizizi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 466, in _make_request
+  File "urllib3\connectionpool.py", line 1095, in _validate_conn
+  File "urllib3\connection.py", line 652, in connect
+  File "urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+  File "urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+  File "urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1042, in _create
+  File "ssl.py", line 1320, in do_handshake
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 490, in _make_request
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 519, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@zizizixizizizi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 12, in main
+  File "recorders\recorders.py", line 66, in run
+  File "recorders\recorders.py", line 386, in test_get_room_id_from_user
+  File "recorders\recorders.py", line 318, in test_get_room_id_from_user
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 698, in send
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@zizizixizizizi (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))

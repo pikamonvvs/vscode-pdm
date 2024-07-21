@@ -1,0 +1,27 @@
+2024-07-14 19:10:30.021 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:10:30.047 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:10:30.047 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:10:40.357 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] Cannot find Room ID.
+2024-07-14 19:10:40.372 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:10:40.372 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:10:50.709 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] Cannot find Room ID.
+2024-07-14 19:10:51.178 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:10:51.178 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:11:01.202 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:11:01.233 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:11:01.233 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:11:11.259 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:11:11.278 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:11:11.278 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:11:21.347 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:11:21.411 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:11:21.411 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:11:31.435 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:11:31.466 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:11:31.471 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:11:41.489 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:11:41.513 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:11:41.513 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 19:11:51.536 | ERROR    | utils.utils:error:67 - Failed to load the page. Status code: 403
+2024-07-14 19:11:51.566 | INFO     | utils.utils:info:59 - [TikTok][o6_.7260] room_id not found
+2024-07-14 19:11:51.566 | INFO     | utils.utils:info:59 - Waiting 10 seconds

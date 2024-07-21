@@ -1,0 +1,43 @@
+2024-07-12 22:00:13.749 | ERROR    | recorders.recorders:download_stream:260 - Cannot find any streams.
+2024-07-12 22:00:13.780 | DEBUG    | recorders.recorders:run:306 - status: OPEN
+2024-07-12 22:00:13.780 | INFO     | recorders.recorders:run:308 - The channel is on air.
+2024-07-12 22:00:13.796 | DEBUG    | recorders.recorders:get_filename:230 - live_time: 2024.07.12 22.00.13
+2024-07-12 22:00:13.796 | DEBUG    | recorders.recorders:get_filename:231 - flag: [Chzzk][핍미유]
+2024-07-12 22:00:13.796 | DEBUG    | recorders.recorders:get_filename:232 - title: 앙냥
+2024-07-12 22:00:13.811 | DEBUG    | recorders.recorders:get_filename:233 - format: ts
+2024-07-12 22:00:13.811 | DEBUG    | recorders.recorders:run:314 - channel_name: 핍미유
+2024-07-12 22:00:13.811 | DEBUG    | recorders.recorders:run:315 - title: 앙냥
+2024-07-12 22:00:13.811 | DEBUG    | recorders.recorders:run:316 - output_path: ..\[2024.07.12 22.00.13][Chzzk][핍미유]앙냥.ts
+This stream is for adults only
+2024-07-12 22:00:13.890 | ERROR    | recorders.recorders:download_stream:260 - Cannot find any streams.
+2024-07-12 22:00:13.905 | DEBUG    | recorders.recorders:run:306 - status: OPEN
+2024-07-12 22:00:13.905 | INFO     | recorders.recorders:run:308 - The channel is on air.
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:get_filename:230 - live_time: 2024.07.12 22.00.13
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:get_filename:231 - flag: [Chzzk][핍미유]
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:get_filename:232 - title: 앙냥
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:get_filename:233 - format: ts
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:run:314 - channel_name: 핍미유
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:run:315 - title: 앙냥
+2024-07-12 22:00:13.937 | DEBUG    | recorders.recorders:run:316 - output_path: ..\[2024.07.12 22.00.13][Chzzk][핍미유]앙냥.ts
+This stream is for adults only
+2024-07-12 22:00:13.999 | ERROR    | recorders.recorders:download_stream:260 - Cannot find any streams.
+2024-07-12 22:00:14.030 | DEBUG    | recorders.recorders:run:306 - status: OPEN
+2024-07-12 22:00:14.030 | INFO     | recorders.recorders:run:308 - The channel is on air.
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:get_filename:230 - live_time: 2024.07.12 22.00.14
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:get_filename:231 - flag: [Chzzk][핍미유]
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:get_filename:232 - title: 앙냥
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:get_filename:233 - format: ts
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:run:314 - channel_name: 핍미유
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:run:315 - title: 앙냥
+2024-07-12 22:00:14.046 | DEBUG    | recorders.recorders:run:316 - output_path: ..\[2024.07.12 22.00.14][Chzzk][핍미유]앙냥.ts
+The stream is unavailable
+2024-07-12 22:00:14.124 | ERROR    | recorders.recorders:download_stream:260 - Cannot find any streams.
+2024-07-12 22:00:14.140 | DEBUG    | recorders.recorders:run:306 - status: OPEN
+2024-07-12 22:00:14.140 | INFO     | recorders.recorders:run:308 - The channel is on air.
+2024-07-12 22:00:44.153 | ERROR    | recorders.recorders:get_channel_info:185 - Error occurred while fetching channel information: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+  File "main.py", line 18, in main
+  File "recorders\recorders.py", line 310, in run
+TypeError: cannot unpack non-iterable NoneType object
+[11816] Failed to execute script 'main' due to unhandled exception!

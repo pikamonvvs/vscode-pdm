@@ -1,0 +1,164 @@
+2024-07-18 14:03:21.580 | INFO     | utils.utils:info:59 - [TikTok][chaeeeeeun8] Cannot find Room ID.
+2024-07-18 14:03:22.174 | INFO     | utils.utils:info:59 - [TikTok][chaeeeeeun8] room_id not found
+2024-07-18 14:03:22.174 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:32.484 | INFO     | utils.utils:info:59 - [TikTok][chaeeeeeun8] Cannot find Room ID.
+2024-07-18 14:03:32.609 | INFO     | utils.utils:info:59 - [TikTok][chaeeeeeun8] room_id not found
+2024-07-18 14:03:32.609 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:42.915 | INFO     | utils.utils:info:59 - [TikTok][chaeeeeeun8] Cannot find Room ID.
+2024-07-18 14:03:43.291 | INFO     | utils.utils:info:59 - [TikTok][chaeeeeeun8] room_id not found
+2024-07-18 14:03:43.291 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+
+2024-07-15 14:18:43.369 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:18:43.761 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:18:43.761 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:18:54.054 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:18:54.461 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:18:54.461 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:19:04.815 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:19:04.925 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:19:04.925 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:19:15.217 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:19:15.342 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:19:15.342 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:19:25.635 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:19:25.745 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:19:25.745 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:19:36.069 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:19:36.507 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:19:36.507 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:19:46.816 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-07-15 14:19:47.247 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] room_id not found
+2024-07-15 14:19:47.247 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 14:19:57.546 | INFO     | utils.utils:info:59 - [TikTok][aejinleeeeee] Cannot find Room ID.
+
+
+2024-07-18 14:02:25.791 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:02:25.916 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:02:25.916 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:02:36.239 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:02:36.645 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:02:36.645 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:02:46.968 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:02:47.374 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:02:47.374 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:02:57.665 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:02:57.806 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:02:57.806 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:08.082 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:03:08.192 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:03:08.192 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:18.528 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:03:18.966 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:03:18.966 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:29.292 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:03:29.432 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:03:29.432 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:39.834 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:03:39.959 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:03:39.959 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:50.266 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] Cannot find Room ID.
+2024-07-18 14:03:50.375 | INFO     | utils.utils:info:59 - [TikTok][gleewithee] room_id not found
+2024-07-18 14:03:50.375 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-15 21:19:59.191 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] Cannot find Room ID.
+2024-07-15 21:19:59.661 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] room_id not found
+2024-07-15 21:19:59.661 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 21:20:09.968 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] Cannot find Room ID.
+2024-07-15 21:20:10.421 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] room_id not found
+2024-07-15 21:20:10.421 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 21:20:20.744 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] Cannot find Room ID.
+2024-07-15 21:20:20.854 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] room_id not found
+2024-07-15 21:20:20.854 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 21:20:31.202 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] Cannot find Room ID.
+2024-07-15 21:20:31.328 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] room_id not found
+2024-07-15 21:20:31.328 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 21:20:41.630 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] Cannot find Room ID.
+2024-07-15 21:20:42.161 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] room_id not found
+2024-07-15 21:20:42.161 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 21:20:52.464 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] Cannot find Room ID.
+2024-07-15 21:20:52.589 | INFO     | utils.utils:info:59 - [TikTok][gwllhye] room_id not found
+2024-07-15 21:20:52.589 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-14 07:43:19.850 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] Cannot find Room ID.
+2024-07-14 07:43:20.147 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] room_id not found
+2024-07-14 07:43:20.147 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 07:43:30.440 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] Cannot find Room ID.
+2024-07-14 07:43:30.705 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] room_id not found
+2024-07-14 07:43:30.705 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 07:43:40.966 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] Cannot find Room ID.
+2024-07-14 07:43:41.247 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] room_id not found
+2024-07-14 07:43:41.247 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-14 07:43:51.523 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] Cannot find Room ID.
+2024-07-14 07:43:51.648 | INFO     | utils.utils:info:59 - [TikTok][sumin72600] room_id not found
+2024-07-14 07:43:51.648 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-18 14:03:18.168 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-18 14:03:18.653 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-18 14:03:18.653 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:28.995 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-18 14:03:29.151 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-18 14:03:29.151 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:39.490 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-18 14:03:39.616 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-18 14:03:39.616 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:49.920 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] Cannot find Room ID.
+2024-07-18 14:03:50.297 | INFO     | utils.utils:info:59 - [TikTok][ming_cong2] room_id not found
+2024-07-18 14:03:50.297 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-18 14:03:20.187 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] Cannot find Room ID.
+2024-07-18 14:03:20.281 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] room_id not found
+2024-07-18 14:03:20.281 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:30.731 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] Cannot find Room ID.
+2024-07-18 14:03:30.887 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] room_id not found
+2024-07-18 14:03:30.887 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:41.242 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] Cannot find Room ID.
+2024-07-18 14:03:41.352 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] room_id not found
+2024-07-18 14:03:41.352 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:51.720 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] Cannot find Room ID.
+2024-07-18 14:03:52.112 | INFO     | utils.utils:info:59 - [TikTok][rimye2165] room_id not found
+2024-07-18 14:03:52.112 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-15 03:56:59.537 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] Cannot find Room ID.
+2024-07-15 03:57:00.194 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] room_id not found
+2024-07-15 03:57:00.194 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 03:57:10.501 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] Cannot find Room ID.
+2024-07-15 03:57:10.626 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] room_id not found
+2024-07-15 03:57:10.626 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 03:57:20.886 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] Cannot find Room ID.
+2024-07-15 03:57:20.996 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] room_id not found
+2024-07-15 03:57:20.996 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 03:57:31.271 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] Cannot find Room ID.
+2024-07-15 03:57:31.661 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] room_id not found
+2024-07-15 03:57:31.661 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-15 03:57:42.079 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] Cannot find Room ID.
+2024-07-15 03:57:42.204 | INFO     | utils.utils:info:59 - [TikTok][jjuya___min] room_id not found
+2024-07-15 03:57:42.204 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-18 14:03:15.900 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-18 14:03:16.042 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-18 14:03:16.042 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:27.492 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-18 14:03:27.742 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-18 14:03:27.742 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:38.082 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-18 14:03:38.567 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-18 14:03:38.567 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-18 14:03:48.873 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-18 14:03:49.014 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-18 14:03:49.014 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+
+2024-07-20 00:22:30.822 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] Cannot find Room ID.
+2024-07-20 00:22:31.418 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] room_id not found
+2024-07-20 00:22:31.418 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-20 00:22:41.722 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] Cannot find Room ID.
+2024-07-20 00:22:42.292 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] room_id not found
+2024-07-20 00:22:42.292 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-20 00:22:52.792 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] Cannot find Room ID.
+2024-07-20 00:22:53.314 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] room_id not found
+2024-07-20 00:22:53.314 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-20 00:23:03.647 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] Cannot find Room ID.
+2024-07-20 00:23:04.136 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] room_id not found
+2024-07-20 00:23:04.136 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-20 00:23:14.449 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] Cannot find Room ID.
+
