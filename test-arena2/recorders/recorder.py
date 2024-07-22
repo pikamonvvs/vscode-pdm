@@ -15,7 +15,7 @@ import requests
 import streamlink
 from httpx_socks import AsyncProxyTransport
 from requests.exceptions import ConnectionError, RequestException
-from streamlink.exceptions import NoPluginError, PluginError
+from streamlink.exceptions import NoPluginError
 from streamlink.stream import HTTPStream, StreamIO
 from streamlink_cli.main import open_stream
 from streamlink_cli.output import FileOutput
@@ -30,8 +30,8 @@ recording: Dict[str, Tuple[StreamIO, FileOutput]] = {}
 class LiveRecorder(ABC):
     def __init__(self, user: dict):
         # Parse required arguments
-        self.platform = user[config.KEY_PLATFORM]
-        self.id = user[config.KEY_ID]
+        self.platform = user.get(config.KEY_PLATFORM)
+        self.id = user.get(config.KEY_ID)
         self.name = user.get(config.KEY_NAME, self.id)
         self.flag = f"[{self.platform}][{self.name}]"
 
@@ -57,43 +57,42 @@ class LiveRecorder(ABC):
             try:
                 # await self.run()
                 await asyncio.sleep(self.interval)
-            except ConnectionError as error:
-                if "Protocol error in live stream detection request" not in str(error):
-                    logutil.error(self.flag, error)
+            except ConnectionError as e:
+                if "Protocol error in live stream detection request" not in str(e):
+                    logutil.error(self.flag, e)
                 await self.client.aclose()
                 self.client = self.get_client()
-            except NoPluginError as error:
-                logutil.error(self.flag, f"NoPluginError: {repr(error)}")
-            except PluginError as error:
-                logutil.error(self.flag, f"Streamlink plugin error: {repr(error)}")
+            except NoPluginError as e:
+                logutil.error(self.flag, f"NoPluginError: {e}")
+            except PermissionError as e:
+                logutil.error(self.flag, f"Permission error: {e}")
                 time.sleep(self.interval)
-            except RequestException as error:
-                logutil.error(self.flag, f"HTTP request error: {repr(error)}")
+            except RequestException as e:
+                logutil.error(self.flag, f"HTTP request error: {e}")
                 time.sleep(self.interval)
-            except Exception as error:
-                logutil.error(self.flag, f"Error in live stream detection: {repr(error)}")
+            except KeyboardInterrupt:
+                logutil.warning(self.flag, "Stopped by keyboard interrupt.")
+                raise
+            except Exception as e:
+                logutil.error(self.flag, f"Error in live stream detection: {e}")
 
     @abstractmethod
-    async def run(self):  # TODO: afreeca에 start랑 run에 나눠져있는 게 chzzk에는 run에 다 구현되어있는데, 어떻게 할지 고민 필요.
+    async def run(self):
         pass
 
-    async def request(self, method, url, **kwargs):  # TODO: afreeca에서 사용되며, 어떻게 쓸지 고민 필요.
+    async def request(self, method, url, **kwargs):
         try:
             response = await self.client.request(method, url, **kwargs)
             return response
-        except httpx.ProtocolError as error:
-            raise ConnectionError(f"{self.flag}Protocol error in live stream detection request\n{error}")
-        except httpx.HTTPError as error:
-            raise ConnectionError(f"{self.flag}Error in live stream detection request\n{repr(error)}")
-        except anyio.EndOfStream as error:
-            raise ConnectionError(f"{self.flag}Proxy error in live stream detection\n{error}")
-
-    """@common_function"""
+        except httpx.ProtocolError as e:
+            raise ConnectionError(f"Protocol error in live stream detection request: {e}")
+        except httpx.HTTPError as e:
+            raise ConnectionError(f"Error in live stream detection request: {e}")
+        except anyio.EndOfStream as e:
+            raise ConnectionError(f"Proxy error in live stream detection: {e}")
 
     def is_file(self, file_path):
         return os.path.isfile(file_path)
-
-    """@common_function"""
 
     def get_cookies(self):
         logutil.info(self.flag, "self.cookies: ", self.cookies)
@@ -104,8 +103,6 @@ class LiveRecorder(ABC):
                 logutil.info(self.flag, "self.cookies: ", self.cookies)
             cookies.load(self.cookies)
             self.cookies = {k: v.value for k, v in cookies.items()}
-
-    """@common_function"""
 
     def get_client(self):
         client_kwargs = {
@@ -123,8 +120,6 @@ class LiveRecorder(ABC):
                 client_kwargs["proxies"] = self.proxy
         return httpx.AsyncClient(**client_kwargs)
 
-    """@common_function"""
-
     def get_streamlink(self):
         session = streamlink.session.Streamlink({"stream-segment-timeout": 60, "hls-segment-queue-threshold": 10})
         # Add streamlink's HTTP related options
@@ -138,8 +133,6 @@ class LiveRecorder(ABC):
         if self.cookies:
             session.set_option("http-cookies", self.cookies)
         return session
-
-    """@common_function"""
 
     def get_filename(self, title, format):
         live_time = time.strftime("%Y.%m.%d %H.%M.%S")
@@ -185,13 +178,13 @@ class LiveRecorder(ABC):
             logutil.info(self.flag, f"Recording in progress: {filename}")
             StreamRunner(stream_fd, output, show_progress=True).run(prebuffer)
             return True
-        except Exception as error:
-            if "timeout" in str(error):
-                logutil.warning(self.flag, f"Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: {filename}\n{error}")
-            elif re.search("(Unable to open URL|No data returned from stream)", str(error)):
-                logutil.warning(self.flag, f"Error opening live stream. Please check if the streamer is live: {filename}\n{error}")
+        except Exception as e:
+            if "timeout" in str(e):
+                logutil.warning(self.flag, f"Live stream recording timeout. Please check if the streamer is live or if the network connection is stable: {filename}\n{e}")
+            elif re.search("(Unable to open URL|No data returned from stream)", str(e)):
+                logutil.warning(self.flag, f"Error opening live stream. Please check if the streamer is live: {filename}\n{e}")
             else:
-                logutil.error(self.flag, f"Error recording live stream: {filename}\n{error}")
+                logutil.error(self.flag, f"Error recording live stream: {filename}\n{e}")
         finally:
             output.close()
 
@@ -222,19 +215,23 @@ class LiveRecorder(ABC):
 
 class Afreeca(LiveRecorder):
     async def run(self):
-        url = f"https://play.afreecatv.com/{self.id}"
-        if url not in recording:
-            response = (
-                await self.request(
-                    method="POST",
-                    url="https://live.afreecatv.com/afreeca/player_live_api.php",
-                    data={"bid": self.id},
-                )
-            ).json()
-            if response["CHANNEL"]["RESULT"] != 0:
-                title = response["CHANNEL"]["TITLE"]
-                stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
-                await asyncio.to_thread(self.run_record, stream, url, title, self.format)
+        try:
+            url = f"https://play.afreecatv.com/{self.id}"
+            if url not in recording:
+                response = (
+                    await self.request(
+                        method="POST",
+                        url="https://live.afreecatv.com/afreeca/player_live_api.php",
+                        data={"bid": self.id},
+                    )
+                ).json()
+                if response["CHANNEL"]["RESULT"] != 0:
+                    title = response["CHANNEL"]["TITLE"]
+                    stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
+                    await asyncio.to_thread(self.run_record, stream, url, title, self.format)
+        except Exception as e:
+            logutil.error(self.flag, f"Error occurred while running the recorder: {e}")
+            raise e
 
 
 class Chzzk(LiveRecorder):
@@ -244,27 +241,31 @@ class Chzzk(LiveRecorder):
         self.flag = f"[{self.platform}][{self.name}]"
 
     async def run(self):
-        status = await self.get_status(self.id)
-        # logutil.debug(self.flag, f"status: {status}")
-        if status == "OPEN":
-            logutil.info(self.flag, "The channel is on air.")
+        try:
+            status = await self.get_status(self.id)
+            # logutil.debug(self.flag, f"status: {status}")
+            if status == "OPEN":
+                logutil.info(self.flag, "The channel is on air.")
 
-            title = await self.get_title(self.id)
-            file_name = await self.get_filename(title, self.format)
-            output_path = os.path.join(self.output, file_name)
-            adult = await self.get_adult_info(self.id)
-            user_adult_status = await self.get_user_adult_status(self.id)
+                title = await self.get_title(self.id)
+                file_name = await self.get_filename(title, self.format)
+                output_path = os.path.join(self.output, file_name)
+                adult = await self.get_adult_info(self.id)
+                user_adult_status = await self.get_user_adult_status(self.id)
 
-            logutil.debug(self.flag, f"channel_name: {self.name}")
-            logutil.debug(self.flag, f"title: {title}")
-            logutil.debug(self.flag, f"output_path: {output_path}")
-            logutil.debug(self.flag, f"adult: {adult}")
-            logutil.debug(self.flag, f"user_adult_status: {user_adult_status}")
+                logutil.debug(self.flag, f"channel_name: {self.name}")
+                logutil.debug(self.flag, f"title: {title}")
+                logutil.debug(self.flag, f"output_path: {output_path}")
+                logutil.debug(self.flag, f"adult: {adult}")
+                logutil.debug(self.flag, f"user_adult_status: {user_adult_status}")
 
-            await self.download_stream(self.id, output_path)
-        else:
-            logutil.info(self.flag, "The channel is offline.")
-            await asyncio.sleep(self.interval)
+                await self.download_stream(self.id, output_path)
+            else:
+                logutil.info(self.flag, "The channel is offline.")
+                await asyncio.sleep(self.interval)
+        except Exception as e:
+            logutil.error(self.flag, f"Error occurred while running the recorder: {e}")
+            raise e
 
     def check_if_id(self, channel):
         # check if the string is a valid channel id
@@ -275,27 +276,48 @@ class Chzzk(LiveRecorder):
         try:
             logutil.debug(f"Searching for channel: {name}")
             response = requests.get(f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={name}&size=10", headers=self.headers)
-            if response.status_code == 404:
-                logutil.error(f"Page not found: {response.url}")
+
+            if response.status_code != 200:
+                logutil.error(self.flag, f"Failed to load the page. Status code: {response.status_code}")
                 return None
 
-            response_json = response.json()
-            # logutil.debug(self.flag, f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
+            if not response.content:
+                logutil.error(self.flag, "Response content is empty.")
+                return ""
 
-            data = response_json["content"]["data"]
+            response_json = response.json()
+
+            if response_json is None:
+                logutil.error("Response JSON is None.")
+                return None
+
+            content = response_json.get("content")
+            if content is None:
+                logutil.error("Invalid response structure: 'content' key is missing.")
+                return None
+
+            data = content.get("data")
+            if data is None:
+                logutil.error("Invalid response structure: 'data' key is missing.")
+                return None
+
             if not data:
                 logutil.error(f"Cannot find channel {name}.")
                 return None
 
             for channel in data:
-                channel_name = channel["channel"]["channelName"]
+                channel_info = channel.get("channel")
+                if channel_info is None:
+                    logutil.error("Invalid response structure: 'channel' key is missing.")
+                    continue
+
+                channel_name = channel_info.get("channelName")
                 if channel_name == name:
-                    channel_id = channel["channel"]["channelId"]
+                    channel_id = channel_info.get("channelId")
                     if not channel_id:
                         logutil.error("Cannot find channel ID.")
                         return None
                     return channel_id
-
         except Exception as e:
             logutil.error(f"Error occurred while fetching channel information: {e}")
             return None
@@ -321,18 +343,21 @@ class Chzzk(LiveRecorder):
             self.name = channel_name
 
     def get_channel_name(self, channel_id):
-        response = requests.get(f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail", headers=self.headers)
         try:
-            if response.status_code == 404:
-                logutil.error(self.flag, f"Page not found: {response.url}")
+            response = requests.get(f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail", headers=self.headers)
+            if response.status_code != 200:
+                logutil.error(self.flag, f"Failed to load the page. Status code: {response.status_code}")
+                return ""
+
+            if not response.content:
+                logutil.error(self.flag, "Response content is empty.")
                 return ""
 
             response_json = response.json()
-            # logutil.debug(self.flag, f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
 
             content = response_json.get("content")
             if not content:
-                logutil.error(self.flag, "Cannot find channel information.")
+                logutil.error(self.flag, "Cannot find content.")
                 return ""
 
             channel_name = content.get("channel", {}).get("channelName")
@@ -343,7 +368,7 @@ class Chzzk(LiveRecorder):
             return channel_name
 
         except Exception as e:
-            logutil.error(self.flag, f"Error occurred while fetching channel information: {e}")
+            logutil.error(self.flag, f"Error occurred while fetching channel name: {e}")
             return ""
 
     async def get_status(self, channel_id):
@@ -351,11 +376,13 @@ class Chzzk(LiveRecorder):
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=self.headers) as response:
-                    if response.status == 404:
-                        logutil.error(self.flag, f"Page not found: {response.url}")
+                    if response.status != 200:
+                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
+                        return ""
+                    if not response.content:
+                        logutil.error(self.flag, "Response content is empty.")
                         return ""
                     response_json = await response.json()
-                    # logutil.debug(self.flag, f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
                     status = response_json.get("content", {}).get("status")
                     if not status:
                         logutil.error(self.flag, "Cannot find channel status.")
@@ -370,14 +397,16 @@ class Chzzk(LiveRecorder):
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=self.headers) as response:
-                    if response.status == 404:
-                        logutil.error(self.flag, f"Page not found: {response.url}")
+                    if response.status != 200:
+                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
+                        return ""
+                    if not response.content:
+                        logutil.error(self.flag, "Response content is empty.")
                         return ""
                     response_json = await response.json()
-                    # logutil.debug(self.flag, f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
                     content = response_json.get("content")
                     if not content:
-                        logutil.error(self.flag, "Cannot find channel information.")
+                        logutil.error(self.flag, "Cannot find content.")
                         return ""
                     title = content.get("liveTitle", "").rstrip()
                     if not title:
@@ -385,7 +414,7 @@ class Chzzk(LiveRecorder):
                         return ""
                     return title
         except Exception as e:
-            logutil.error(self.flag, f"Error occurred while fetching channel information: {e}")
+            logutil.error(self.flag, f"Error occurred while fetching title: {e}")
             return ""
 
     async def get_adult_info(self, channel_id):
@@ -393,11 +422,13 @@ class Chzzk(LiveRecorder):
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=self.headers) as response:
-                    if response.status == 404:
-                        logutil.error(self.flag, f"Page not found: {response.url}")
+                    if response.status != 200:
+                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
+                        return ""
+                    if not response.content:
+                        logutil.error(self.flag, "Response content is empty.")
                         return ""
                     response_json = await response.json()
-                    # logutil.debug(self.flag, f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
                     content = response_json.get("content")
                     if not content:
                         logutil.error(self.flag, "Cannot find channel status.")
@@ -416,11 +447,13 @@ class Chzzk(LiveRecorder):
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=self.headers) as response:
-                    if response.status == 404:
-                        logutil.error(self.flag, f"Page not found: {response.url}")
+                    if response.status != 200:
+                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
+                        return ""
+                    if not response.content:
+                        logutil.error(self.flag, "Response content is empty.")
                         return ""
                     response_json = await response.json()
-                    # logutil.debug(self.flag, f"response_json: {json.dumps(response_json, indent=4, ensure_ascii=False)}")
                     content = response_json.get("content")
                     if not content:
                         logutil.error(self.flag, "Cannot find channel status.")

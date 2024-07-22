@@ -162,3 +162,5 @@
 2024-07-20 00:23:04.136 | INFO     | utils.utils:info:59 - Waiting 10 seconds
 2024-07-20 00:23:14.449 | INFO     | utils.utils:info:59 - [TikTok][yukarice0] Cannot find Room ID.
 
+갑자기 프로그램이 돌다가 멈춤.
+ctrl + C 눌러도 반응 없음.
