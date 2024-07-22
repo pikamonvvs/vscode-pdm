@@ -1,8 +1,8 @@
 import asyncio
 
 import utils.utils as utils
-from recorders.recorders import *
-from recorders.recorders import recording
+from recorders.recorder import *
+from recorders.recorder import recording
 from utils.utils import logutil
 
 
