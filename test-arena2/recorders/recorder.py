@@ -148,10 +148,14 @@ class LiveRecorder(ABC):
             "\\": "＼",
             "|": "｜",
         }
-        for half, full in char_dict.items():
-            title = title.replace(half, full)
-        filename = f"[{live_time}]{self.flag}{title[:50]}.{format}"
-        return filename
+        try:
+            for half, full in char_dict.items():
+                title = title.replace(half, full)
+            filename = f"[{live_time}]{self.flag}{title[:50]}.{format}"
+            return filename
+        except Exception as e:
+            logutil.error(self.flag, f"Exception occurred: {e}")
+            return ""
 
     def run_record(self, stream: Union[StreamIO, HTTPStream], url, title, format):
         # Get the output filename
