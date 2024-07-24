@@ -1,0 +1,20 @@
+2024-07-25 08:48:53.338 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:48:53.338 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-25 08:49:03.408 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object has no attribute 'get'
+2024-07-25 08:49:03.408 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:49:03.408 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-25 08:49:13.493 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object has no attribute 'get'
+2024-07-25 08:49:13.493 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:49:13.493 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-25 08:49:23.563 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object has no attribute 'get'
+2024-07-25 08:49:23.563 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:49:23.563 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-25 08:49:33.649 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object has no attribute 'get'
+2024-07-25 08:49:33.649 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:49:33.649 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-25 08:49:43.718 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object has no attribute 'get'
+2024-07-25 08:49:43.718 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:49:43.718 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-25 08:49:53.803 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] Error occurred while fetching channel information: 'NoneType' object has no attribute 'get'
+2024-07-25 08:49:53.803 | DEBUG    | utils.utils:debug:54 - [Chzzk][한갱 Woohankyung] status:
+2024-07-25 08:49:53.803 | INFO     | utils.utils:info:58 - [Chzzk][한갱 Woohankyung] The channel is offline.
