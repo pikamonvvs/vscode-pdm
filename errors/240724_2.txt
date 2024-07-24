@@ -1,0 +1,43 @@
+ConnectError('All connection attempts failed')
+2024-07-24 19:59:02.395 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:00:23.666 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:02:26.071 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:03:07.320 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:06:19.710 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:06:30.735 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:08:53.059 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:10:04.487 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:12:26.709 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:12:58.048 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:14:09.709 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:14:20.686 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:15:11.695 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:19:14.591 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:19:25.723 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:19:36.716 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:19:37.591 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:20:28.739 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:20:40.059 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:20:51.035 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
+2024-07-24 20:21:02.060 | ERROR    | utils.utils:error:65 - [Afreeca][crazycatsss] [Afreeca][crazycatsss]Error in live stream detection request
+ConnectError('All connection attempts failed')
