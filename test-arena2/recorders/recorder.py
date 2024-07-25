@@ -8,14 +8,15 @@ from pathlib import Path
 from typing import Dict, Tuple, Union
 
 import aiohttp
-import anyio
 import ffmpeg
 import httpx
 import requests
 import streamlink
+from anyio import EndOfStream
+from httpx import HTTPError, ProtocolError
 from httpx_socks import AsyncProxyTransport
-from requests.exceptions import ConnectionError, RequestException
-from streamlink.exceptions import NoPluginError
+from requests.exceptions import ConnectionError, RequestException, SSLError
+from streamlink import NoPluginError, PluginError
 from streamlink.stream import HTTPStream, StreamIO
 from streamlink_cli.main import open_stream
 from streamlink_cli.output import FileOutput
@@ -62,6 +63,8 @@ class LiveRecorder(ABC):
                     logutil.error(self.flag, e)
                 await self.client.aclose()
                 self.client = self.get_client()
+            except PluginError as e:
+                logutil.error(self.flag, f"Streamlink plugin error: {e}")
             except NoPluginError as e:
                 logutil.error(self.flag, f"NoPluginError: {e}")
             except PermissionError as e:
@@ -84,12 +87,24 @@ class LiveRecorder(ABC):
         try:
             response = await self.client.request(method, url, **kwargs)
             return response
-        except httpx.ProtocolError as e:
-            raise ConnectionError(f"Protocol error in live stream detection request: {e}")
-        except httpx.HTTPError as e:
-            raise ConnectionError(f"Error in live stream detection request: {e}")
-        except anyio.EndOfStream as e:
-            raise ConnectionError(f"Proxy error in live stream detection: {e}")
+        except ProtocolError as e:
+            logutil.error(self.flag, f"Protocol error: {e}")
+            raise e
+        except HTTPError as e:
+            logutil.error(self.flag, f"HTTP error: {e}")
+            raise e
+        except EndOfStream as e:
+            logutil.error(self.flag, f"End of stream: {e}")
+            raise e
+        except SSLError as e:
+            logutil.error(self.flag, f"SSL error: {e}")
+            raise e
+        except ConnectionError as e:
+            logutil.error(self.flag, f"Connection error: {e}")
+            raise e
+        except Exception as e:
+            logutil.error(self.flag, f"Unexpected error: {e}")
+            raise e
 
     def is_file(self, file_path):
         return os.path.isfile(file_path)
@@ -219,8 +234,8 @@ class LiveRecorder(ABC):
 
 class Afreeca(LiveRecorder):
     async def run(self):
+        url = f"https://play.afreecatv.com/{self.id}"
         try:
-            url = f"https://play.afreecatv.com/{self.id}"
             if url not in recording:
                 response = (
                     await self.request(
@@ -234,7 +249,7 @@ class Afreeca(LiveRecorder):
                     stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
                     await asyncio.to_thread(self.run_record, stream, url, title, self.format)
         except Exception as e:
-            logutil.error(self.flag, f"Error occurred while running the recorder: {e}")
+            logutil.error(self.flag, f"Unexpected error: {e}")
             raise e
 
 
@@ -323,7 +338,7 @@ class Chzzk(LiveRecorder):
                         return None
                     return channel_id
         except Exception as e:
-            logutil.error(f"Error occurred while fetching channel information: {e}")
+            logutil.error(f"Error occurred while fetching channel ID: {e}")
             return None
 
         logutil.error(f"Cannot find channel {name}.")
@@ -387,13 +402,20 @@ class Chzzk(LiveRecorder):
                         logutil.error(self.flag, "Response content is empty.")
                         return ""
                     response_json = await response.json()
-                    status = response_json.get("content", {}).get("status")
+                    if not response_json:
+                        logutil.error(self.flag, "Response JSON is None or empty.")
+                        return ""
+                    content = response_json.get("content")
+                    if not content:
+                        logutil.error(self.flag, "Content is None or empty.")
+                        return ""
+                    status = content.get("status")
                     if not status:
                         logutil.error(self.flag, "Cannot find channel status.")
                         return ""
                     return status
         except Exception as e:
-            logutil.info(self.flag, f"Error occurred while fetching channel information: {e}")
+            logutil.info(self.flag, f"Error occurred while fetching status: {e}")
             return ""
 
     async def get_title(self, channel_id):
@@ -439,11 +461,11 @@ class Chzzk(LiveRecorder):
                         return ""
                     adult = content.get("adult")
                     if not adult:
-                        logutil.error(self.flag, "Cannot find adult status.")
+                        logutil.error(self.flag, "Cannot find adult info.")
                         return ""
                     return adult
         except Exception as e:
-            logutil.info(self.flag, f"Error occurred while fetching channel information: {e}")
+            logutil.info(self.flag, f"Error occurred while fetching adult info: {e}")
             return ""
 
     async def get_user_adult_status(self, channel_id):
@@ -468,7 +490,7 @@ class Chzzk(LiveRecorder):
                         return ""
                     return user_adult_status
         except Exception as e:
-            logutil.info(self.flag, f"Error occurred while fetching channel information: {e}")
+            logutil.info(self.flag, f"Error occurred while fetching user adult status: {e}")
             return ""
 
     # def auto_convert_mp4(self, file_path):
