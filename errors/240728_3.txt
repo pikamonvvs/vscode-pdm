@@ -1,0 +1,42 @@
+PS C:\Users\lunar\Desktop\Outputs\ChzzkLiveRecorder> .\Chzzk.exe Chzzk "한갱 Woohankyung" -c ".\cookies\cookies.txt" -o ".."
+2024-07-28 14:00:38.690 | DEBUG    | recorders.recorders:get_id_from_name:48 - Searching for channel: 한갱 Woohankyung
+2024-07-28 14:00:38.864 | INFO     | recorders.recorders:get_cookies:121 - [Chzzk][한갱 Woohankyung] self.cookies:  .\cookies\cookies.txt
+2024-07-28 14:00:38.864 | INFO     | recorders.recorders:get_cookies:126 - [Chzzk][한갱 Woohankyung] self.cookies:  NID_JKL=qtIUIZKy5r1DBIECVFY1faNeHurZA/0zgjxxHXjwGSw=;BUC=9JQOF0EZEaXEfnXvgqV3RJObrqFioKWtooep5AcPt4Q=;ba.uuid=ea89bf95-91a2-4a47-9d71-496f4840ec2b;NID_SES=AAABnegPicWAWAtPvpwhkFYUOgyRMM12sIcC0aZFhLZh+Yyr2o5le8L0kg9krzA611042IDOw0GYos4j4NrFtNDhltkBb/Z5ZOyO4eGnVjehhvnW9CdILKGdr6ynZOAHbNN98ZWlfcvVZ49SUkEKhib2V3cwx0JRXQFtAaOetSMVmxu2gwEShNHrbBkMSCWDWucZ0FxXgyjVm13DuH5Pa9Nnp+PFp4O5xF4AE6yvZkBojNrw2ALw/7nUOyROKqMy3FDlmRkg1eBL90r3LL6jUMYh1Kh0BaRz0inUjli31rsnW8F0iKPmv5C5lmUNCLVoGGVsQHf/YfruW+FKRfqnhQnt4AVmcSQF/wuIdmvb9f7bNFJ8asrgMNDGRBG3KpVOhLtnq8oYS/PjGRXKtZa7yLsx1gDZIQQN/gN/a0Sw6FPrMkzIXk3LWYz3TbNYof6fgoZkhEhjxhvm4WkTJZttw+LcaMZa5RzfHNAv/CshhpNpddIx842VXr9GHib58cDxMXV8c6g5bHn5mlogXyNgaE7MZDYICu//bg1ctF6wghVGZBpA;NNB=D5L7WV35MWAWM;NAC=M6d0BMwpiI4Q;NID_AUT=BhdBRTwX5p80dFhv/JF0teJyRXSA4d0vqtcC6y+HuaUp74FYbQbcBsC2DOPWdLOY;nid_inf=740777541
+2024-07-28 14:00:39.265 | DEBUG    | recorders.recorders:__init__:42 - platform: Chzzk
+2024-07-28 14:00:39.265 | DEBUG    | recorders.recorders:__init__:43 - name: 한갱 Woohankyung
+2024-07-28 14:00:39.265 | DEBUG    | recorders.recorders:__init__:44 - flag: [Chzzk][한갱 Woohankyung]
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:388 - [Chzzk][한갱 Woohankyung] =============================
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:389 - [Chzzk][한갱 Woohankyung] platform: Chzzk
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:390 - [Chzzk][한갱 Woohankyung] id: a636c4cfeb73aae44f0ba6c34ce5dcfb
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:391 - [Chzzk][한갱 Woohankyung] name: 한갱 Woohankyung
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:392 - [Chzzk][한갱 Woohankyung] interval: 10
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:393 - [Chzzk][한갱 Woohankyung] headers: {'User-Agent': 'Chrome'}
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:394 - [Chzzk][한갱 Woohankyung] cookies: {'NID_JKL': 'qtIUIZKy5r1DBIECVFY1faNeHurZA/0zgjxxHXjwGSw=', 'BUC': '9JQOF0EZEaXEfnXvgqV3RJObrqFioKWtooep5AcPt4Q=', 'ba.uuid': 'ea89bf95-91a2-4a47-9d71-496f4840ec2b', 'NID_SES': 'AAABnegPicWAWAtPvpwhkFYUOgyRMM12sIcC0aZFhLZh+Yyr2o5le8L0kg9krzA611042IDOw0GYos4j4NrFtNDhltkBb/Z5ZOyO4eGnVjehhvnW9CdILKGdr6ynZOAHbNN98ZWlfcvVZ49SUkEKhib2V3cwx0JRXQFtAaOetSMVmxu2gwEShNHrbBkMSCWDWucZ0FxXgyjVm13DuH5Pa9Nnp+PFp4O5xF4AE6yvZkBojNrw2ALw/7nUOyROKqMy3FDlmRkg1eBL90r3LL6jUMYh1Kh0BaRz0inUjli31rsnW8F0iKPmv5C5lmUNCLVoGGVsQHf/YfruW+FKRfqnhQnt4AVmcSQF/wuIdmvb9f7bNFJ8asrgMNDGRBG3KpVOhLtnq8oYS/PjGRXKtZa7yLsx1gDZIQQN/gN/a0Sw6FPrMkzIXk3LWYz3TbNYof6fgoZkhEhjxhvm4WkTJZttw+LcaMZa5RzfHNAv/CshhpNpddIx842VXr9GHib58cDxMXV8c6g5bHn5mlogXyNgaE7MZDYICu//bg1ctF6wghVGZBpA', 'NNB': 'D5L7WV35MWAWM', 'NAC': 'M6d0BMwpiI4Q', 'NID_AUT': 'BhdBRTwX5p80dFhv/JF0teJyRXSA4d0vqtcC6y+HuaUp74FYbQbcBsC2DOPWdLOY', 'nid_inf': '740777541'}
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:395 - [Chzzk][한갱 Woohankyung] format: ts
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:396 - [Chzzk][한갱 Woohankyung] proxy: None
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:397 - [Chzzk][한갱 Woohankyung] output: ..
+2024-07-28 14:00:39.265 | INFO     | recorders.recorders:print_info:398 - [Chzzk][한갱 Woohankyung] =============================
+2024-07-28 14:00:39.421 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:00:39.434 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:00:39.434 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:00:49.608 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:00:49.608 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:00:49.608 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:00:59.799 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:00:59.799 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:00:59.799 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:01:09.913 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:01:09.913 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:01:09.913 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:01:20.060 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:01:20.060 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:01:20.060 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:01:30.249 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:01:30.249 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:01:30.249 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:01:40.343 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:01:40.343 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:01:40.343 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.
+2024-07-28 14:01:50.546 | ERROR    | recorders.recorders:get_status:253 - [Chzzk][한갱 Woohankyung] Content is None or empty.
+2024-07-28 14:01:50.546 | DEBUG    | recorders.recorders:run:413 - [Chzzk][한갱 Woohankyung] status:
+2024-07-28 14:01:50.546 | INFO     | recorders.recorders:run:432 - [Chzzk][한갱 Woohankyung] The channel is offline.

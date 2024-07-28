@@ -1,0 +1,25 @@
+2024-07-28 13:52:35.538 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:52:35.710 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:52:35.710 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:52:46.110 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:52:46.313 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:52:46.313 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:52:56.680 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:52:56.839 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:52:56.839 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:53:08.212 | ERROR    | utils.utils:error:67 - [TikTok][chxxn.l] Cannot find user info.
+2024-07-28 13:53:08.212 | ERROR    | utils.utils:error:67 - [TikTok][chxxn.l] User info: null
+2024-07-28 13:53:08.390 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:53:08.390 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:53:18.926 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:53:19.108 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:53:19.108 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:53:29.457 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:53:29.647 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:53:29.647 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:53:40.061 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:53:40.249 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:53:40.249 | INFO     | utils.utils:info:59 - Waiting 10 seconds
+2024-07-28 13:53:50.577 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] Cannot find Room ID.
+2024-07-28 13:53:50.749 | INFO     | utils.utils:info:59 - [TikTok][chxxn.l] room_id not found
+2024-07-28 13:53:50.749 | INFO     | utils.utils:info:59 - Waiting 10 seconds

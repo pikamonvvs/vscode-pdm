@@ -1,0 +1,34 @@
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] =============================
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] platform: Afreeca
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] id: flower1023
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] name: flower1023
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] interval: 10
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] headers: {'User-Agent': 'Chrome'}
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] cookies: {'PdboxUser': 'uid%3Dlunar456th%26uno%3D16032976%26age%3D31%26sex%3DA%26A%3DAAE%26B%3DBADB%26unick%3D%EA%B7%80%EC%97%AC%EC%9B%8C%EC%9C%B5vv%26apply_date%3D1204975938%26name_chk%3D1%26sess_adult_chk%3D1%26broad_name_chk%3D1%26change_password%3D1%26chnnl_cd%3D1%26chnnl_name_chk%3D1', 'RDB': 'c80300000000004b52000000000000000000000000000000010000001f1f0000000000000001', '_ausa': '0x68af7687', 'AbroadVod': 'FAIL', 'VodAutoPlay': 'off', 'isBbs': '1', 'NextChangePwd': '1', 'PdboxTicket': '.A32.7bbT56vyHM9fKZk.SNEejBSSDWnEMacKFvaiFLAwgNa86vL-Z4E-BCzu_gOc25PHMnkyWbVCi2D8z3DjFvYIxg94XhBJ9jFHopm-oEmH816mjenm4C1thp3Jt1qwRtYdVU1C21BAIsdNIF6QYgWm-J0tmjLadUqii4lxru_ZzZkOZk1tg782Fuh4qWDOUoz6GGFG2TiC2jpW8X33AANeWtlPe9vQR37hCEqeKJBMjoj2i-_rCzOBe3QsUTdpoYEKBgGo1aXFrfevcsFCzpfK-seBTarF1buElFSXs_COEhs3MbnXRMhCrCMZctegQpQHfDyK-OXvjIc9BQm-WMtIISfWWZQfw_MbJ16a7SoTqn-oLrugAQBWHnqSSQs6M5wxgnbacIz1X6eFTVYC1mH4WptlMySkdpNy9FrwGm-8z9qFsFGyz8t-0QuGl-1OiXJLFoomIxbTUIDgQ8Z2xjcn6wZlvcicNUHM480J8GVJKgapmPNEX_S3w_52rAY3XPpWF28ONr8gRLsmq_dyO2Dz0G0NY73PbBtvcKOVWmxyjUP9Y7cwU4Mv2oPAo1iGQ41uxBosvgcCFrkOsndVuBQ39rFz6W3pub5vSVN5l2ob4BBthT5v8Zj0EtBROiswmHXlUPQQHVgtErpbvqp8KwzvRyfLu2h25VD9J7-wAA', '_au': 'b5d4cf903ac8bccfc45e3d553ad1554c', '_au3rd': 'b5d4cf903ac8bccfc45e3d553ad1554c', '_ausb': '0x1068be5b', 'AbroadChk': 'FAIL', 'PdboxBbs': 'lunar456th', 'PdboxSaveTicket': '.A32.7bbT56vyHM9fKZk.BoTHRPbeDGXFNDmnaucHmQ', 'theme': 'dark'}
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] format: ts
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] proxy: None
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] output: .
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] =============================
+2024-07-24 21:16:41.162 | INFO     | utils.utils:info:57 - [Afreeca][flower1023] Checking live stream status
+2024-07-24 23:37:26.639 | ERROR    | utils.utils:error:65 - [Afreeca][flower1023] Error in live stream detection request:
+
+
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] =============================
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] platform: Afreeca
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] id: llllu3ullll
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] name: llllu3ullll
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] interval: 10
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] headers: {'User-Agent': 'Chrome'}
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] cookies: {'PdboxUser': 'uid%3Dlunar456th%26uno%3D16032976%26age%3D31%26sex%3DA%26A%3DAAE%26B%3DBADB%26unick%3D%EA%B7%80%EC%97%AC%EC%9B%8C%EC%9C%B5vv%26apply_date%3D1204975938%26name_chk%3D1%26sess_adult_chk%3D1%26broad_name_chk%3D1%26change_password%3D1%26chnnl_cd%3D1%26chnnl_name_chk%3D1', 'RDB': 'c80300000000004b52000000000000000000000000000000010000001f1f0000000000000001', '_ausa': '0x68af7687', 'AbroadVod': 'FAIL', 'VodAutoPlay': 'off', 'isBbs': '1', 'NextChangePwd': '1', 'PdboxTicket': '.A32.7bbT56vyHM9fKZk.SNEejBSSDWnEMacKFvaiFLAwgNa86vL-Z4E-BCzu_gOc25PHMnkyWbVCi2D8z3DjFvYIxg94XhBJ9jFHopm-oEmH816mjenm4C1thp3Jt1qwRtYdVU1C21BAIsdNIF6QYgWm-J0tmjLadUqii4lxru_ZzZkOZk1tg782Fuh4qWDOUoz6GGFG2TiC2jpW8X33AANeWtlPe9vQR37hCEqeKJBMjoj2i-_rCzOBe3QsUTdpoYEKBgGo1aXFrfevcsFCzpfK-seBTarF1buElFSXs_COEhs3MbnXRMhCrCMZctegQpQHfDyK-OXvjIc9BQm-WMtIISfWWZQfw_MbJ16a7SoTqn-oLrugAQBWHnqSSQs6M5wxgnbacIz1X6eFTVYC1mH4WptlMySkdpNy9FrwGm-8z9qFsFGyz8t-0QuGl-1OiXJLFoomIxbTUIDgQ8Z2xjcn6wZlvcicNUHM480J8GVJKgapmPNEX_S3w_52rAY3XPpWF28ONr8gRLsmq_dyO2Dz0G0NY73PbBtvcKOVWmxyjUP9Y7cwU4Mv2oPAo1iGQ41uxBosvgcCFrkOsndVuBQ39rFz6W3pub5vSVN5l2ob4BBthT5v8Zj0EtBROiswmHXlUPQQHVgtErpbvqp8KwzvRyfLu2h25VD9J7-wAA', '_au': 'b5d4cf903ac8bccfc45e3d553ad1554c', '_au3rd': 'b5d4cf903ac8bccfc45e3d553ad1554c', '_ausb': '0x1068be5b', 'AbroadChk': 'FAIL', 'PdboxBbs': 'lunar456th', 'PdboxSaveTicket': '.A32.7bbT56vyHM9fKZk.BoTHRPbeDGXFNDmnaucHmQ', 'theme': 'dark'}
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] format: ts
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] proxy: None
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] output: .
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] =============================
+2024-07-24 21:16:42.567 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] Checking live stream status
+2024-07-25 09:20:37.598 | ERROR    | utils.utils:error:65 - [Afreeca][llllu3ullll] Error in live stream detection request:
+2024-07-25 19:56:52.310 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] Started recording: [2024.07.25 19.56.52][Afreeca][llllu3ullll]앙녕.ts
+2024-07-25 19:56:52.310 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] Obtained live stream link: [2024.07.25 19.56.52][Afreeca][llllu3ullll]앙녕.ts
+https://pc-web.stream.afreecatv.com/live-stm-20/auth_playlist.m3u8?aid=.A32.7bbT56vyHM9fKZk.v_KgKq4NwC2ra-9hidKMpAxZ_VG7XKpR6mgk0YtDUatzxoNONRDLIUolNOOqwdeXI2N0F8jqcoJKV0FbQwoKH0Fn7Lgqd4PN1djKX69ocCI
+2024-07-25 19:56:52.389 | INFO     | utils.utils:info:57 - [Afreeca][llllu3ullll] Recording in progress: [2024.07.25 19.56.52][Afreeca][llllu3ullll]앙녕.ts
+[download] Written 3.81 GiB to [2024.07.25 19.56.52][Afreeca][llllu3ullll]앙녕.ts (1h33m53s @ 704.12 KiB/s)
+
