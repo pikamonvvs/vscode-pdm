@@ -10,7 +10,6 @@ from typing import Dict, Tuple, Union
 import aiohttp
 import ffmpeg
 import httpx
-import requests
 import streamlink
 from anyio import EndOfStream
 from httpx import HTTPError, ProtocolError
@@ -118,6 +117,21 @@ class LiveRecorder(ABC):
                 logutil.info(self.flag, "self.cookies: ", self.cookies)
             cookies.load(self.cookies)
             self.cookies = {k: v.value for k, v in cookies.items()}
+
+    def get_client2(self):
+        http2 = True
+        timeout = self.interval
+        limits = httpx.Limits(max_keepalive_connections=100, keepalive_expiry=self.interval * 2)
+        headers = self.headers
+        cookies = self.cookies
+
+        if self.proxy:
+            if "socks" in self.proxy:
+                transport = AsyncProxyTransport.from_url(self.proxy)
+            else:
+                proxies = self.proxy
+
+        return httpx.AsyncClient(http2=http2, timeout=timeout, limits=limits, headers=headers, cookies=cookies, proxies=proxies, transport=transport)
 
     def get_client(self):
         client_kwargs = {
@@ -286,68 +300,76 @@ class Chzzk(LiveRecorder):
             logutil.error(self.flag, f"Error occurred while running the recorder: {e}")
             raise e
 
-    def check_if_id(self, channel):
+    async def check_if_id(self, channel):
         # check if the string is a valid channel id
         pattern = re.compile(r"^[0-9a-f]{32}$")
         return bool(pattern.match(channel))
 
-    def get_id_from_name(self, name):
+    async def fetch_value(url, keys, headers=None):
         try:
-            logutil.debug(f"Searching for channel: {name}")
-            response = requests.get(f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={name}&size=10", headers=self.headers)
-
-            if response.status_code != 200:
-                logutil.error(self.flag, f"Failed to load the page. Status code: {response.status_code}")
-                return None
-
-            if not response.content:
-                logutil.error(self.flag, "Response content is empty.")
-                return ""
-
-            response_json = response.json()
-
-            if response_json is None:
-                logutil.error("Response JSON is None.")
-                return None
-
-            content = response_json.get("content")
-            if content is None:
-                logutil.error("Invalid response structure: 'content' key is missing.")
-                return None
-
-            data = content.get("data")
-            if data is None:
-                logutil.error("Invalid response structure: 'data' key is missing.")
-                return None
-
-            if not data:
-                logutil.error(f"Cannot find channel {name}.")
-                return None
-
-            for channel in data:
-                channel_info = channel.get("channel")
-                if channel_info is None:
-                    logutil.error("Invalid response structure: 'channel' key is missing.")
-                    continue
-
-                channel_name = channel_info.get("channelName")
-                if channel_name == name:
-                    channel_id = channel_info.get("channelId")
-                    if not channel_id:
-                        logutil.error("Cannot find channel ID.")
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, headers=headers) as response:
+                    if response.status != 200:
+                        logutil.error(f"Failed to load the page. Status code: {response.status}")
                         return None
-                    return channel_id
+                    if not response.content:
+                        logutil.error("Response content is empty.")
+                        return None
+                    response_json = await response.json()
+                    if not response_json:
+                        logutil.error("Response JSON is None or empty.")
+                        return None
+
+                    data = response_json
+                    for key in keys:
+                        if isinstance(data, dict):
+                            data = data.get(key)
+                            if data is None:
+                                logutil.error(f"Key '{key}' not found in the JSON data.")
+                                return None
+                        else:
+                            logutil.error(f"Data is not a dictionary at key '{key}'.")
+                            return None
+                    return data
         except Exception as e:
-            logutil.error(f"Error occurred while fetching channel ID: {e}")
+            logutil.error(f"Error occurred while fetching JSON: {e}")
             return None
 
-        logutil.error(f"Cannot find channel {name}.")
+    async def get_id_from_name(self, name):
+        url = f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={name}&size=10"
+        data = await self.fetch_value(url, ["content", "data"], headers=self.headers)
+        if data is None:
+            logutil.error(f"{self.flag}: Cannot find channel '{name}'.")
+            return None
+
+        for channel in data:
+            channel_info = channel.get("channel")
+            if channel_info is None:
+                logutil.error("Invalid response structure: 'channel' key is missing.")
+                continue
+            channel_name = channel_info.get("channelName")
+            if channel_name == name:
+                channel_id = channel_info.get("channelId")
+                if not channel_id:
+                    logutil.error("Cannot find channel ID.")
+                    return None
+                return channel_id
+
+        logutil.error(f"Cannot find channel '{name}'.")
         return None
 
-    def get_ids(self):
-        if not self.check_if_id(self.id):
+    async def get_channel_name(self, channel_id):
+        url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
+        channel_name = await self.fetch_value(url, ["content", "channel", "channelName"], headers=self.headers)
+        if channel_name is None:
+            logutil.error(f"{self.flag}: Cannot find channel name.")
+            return ""
+        return channel_name
+
+    async def get_ids(self):
+        if not await self.check_if_id(self.id):
             channel_name = self.id
-            channel_id = self.get_id_from_name(channel_name)
+            channel_id = await self.get_id_from_name(channel_name)
             if channel_id is None:
                 logutil.error(f"Cannot find channel ID for name {self.id}.")
                 return
@@ -355,143 +377,43 @@ class Chzzk(LiveRecorder):
             if self.name == self.id:
                 self.name = channel_name
         else:
-            channel_name = self.get_channel_name(self.id)
+            channel_name = await self.get_channel_name(self.id)
             if channel_name is None:
                 logutil.error(f"Cannot find channel name for ID {self.id}.")
                 return
             self.name = channel_name
 
-    def get_channel_name(self, channel_id):
-        try:
-            response = requests.get(f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail", headers=self.headers)
-            if response.status_code != 200:
-                logutil.error(self.flag, f"Failed to load the page. Status code: {response.status_code}")
-                return ""
-
-            if not response.content:
-                logutil.error(self.flag, "Response content is empty.")
-                return ""
-
-            response_json = response.json()
-
-            content = response_json.get("content")
-            if not content:
-                logutil.error(self.flag, "Cannot find content.")
-                return ""
-
-            channel_name = content.get("channel", {}).get("channelName")
-            if not channel_name:
-                logutil.error(self.flag, "Cannot find channel name.")
-                return ""
-
-            return channel_name
-
-        except Exception as e:
-            logutil.error(self.flag, f"Error occurred while fetching channel name: {e}")
-            return ""
-
     async def get_status(self, channel_id):
         url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=self.headers) as response:
-                    if response.status != 200:
-                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
-                        return ""
-                    if not response.content:
-                        logutil.error(self.flag, "Response content is empty.")
-                        return ""
-                    response_json = await response.json()
-                    if not response_json:
-                        logutil.error(self.flag, "Response JSON is None or empty.")
-                        return ""
-                    content = response_json.get("content")
-                    if not content:
-                        logutil.error(self.flag, "Content is None or empty.")
-                        return ""
-                    status = content.get("status")
-                    if not status:
-                        logutil.error(self.flag, "Cannot find channel status.")
-                        return ""
-                    return status
-        except Exception as e:
-            logutil.info(self.flag, f"Error occurred while fetching status: {e}")
+        status = await self.fetch_value(url, ["content", "status"], headers=self.headers)
+        if status is None:
+            logutil.error(f"{self.flag}: Cannot find channel status.")
             return ""
+        return status
 
     async def get_title(self, channel_id):
         url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=self.headers) as response:
-                    if response.status != 200:
-                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
-                        return ""
-                    if not response.content:
-                        logutil.error(self.flag, "Response content is empty.")
-                        return ""
-                    response_json = await response.json()
-                    content = response_json.get("content")
-                    if not content:
-                        logutil.error(self.flag, "Cannot find content.")
-                        return ""
-                    title = content.get("liveTitle", "").rstrip()
-                    if not title:
-                        logutil.error(self.flag, "Cannot find title.")
-                        return ""
-                    return title
-        except Exception as e:
-            logutil.error(self.flag, f"Error occurred while fetching title: {e}")
+        title = await self.fetch_value(url, ["content", "liveTitle"], headers=self.headers)
+        if title is None:
+            logutil.error(f"{self.flag}: Cannot find title.")
             return ""
+        return title.rstrip()
 
     async def get_adult_info(self, channel_id):
         url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=self.headers) as response:
-                    if response.status != 200:
-                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
-                        return ""
-                    if not response.content:
-                        logutil.error(self.flag, "Response content is empty.")
-                        return ""
-                    response_json = await response.json()
-                    content = response_json.get("content")
-                    if not content:
-                        logutil.error(self.flag, "Cannot find channel status.")
-                        return ""
-                    adult = content.get("adult")
-                    if not adult:
-                        logutil.error(self.flag, "Cannot find adult info.")
-                        return ""
-                    return adult
-        except Exception as e:
-            logutil.info(self.flag, f"Error occurred while fetching adult info: {e}")
+        adult_info = await self.fetch_value(url, ["content", "adult"], headers=self.headers)
+        if adult_info is None:
+            logutil.error(f"{self.flag}: Cannot find adult info.")
             return ""
+        return adult_info
 
     async def get_user_adult_status(self, channel_id):
         url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=self.headers) as response:
-                    if response.status != 200:
-                        logutil.error(self.flag, f"Failed to load the page. Status code: {response.status}")
-                        return ""
-                    if not response.content:
-                        logutil.error(self.flag, "Response content is empty.")
-                        return ""
-                    response_json = await response.json()
-                    content = response_json.get("content")
-                    if not content:
-                        logutil.error(self.flag, "Cannot find channel status.")
-                        return ""
-                    user_adult_status = content.get("userAdultStatus")
-                    if not user_adult_status:
-                        logutil.error(self.flag, "Cannot find user adult status.")
-                        return ""
-                    return user_adult_status
-        except Exception as e:
-            logutil.info(self.flag, f"Error occurred while fetching user adult status: {e}")
+        user_adult_status = await self.fetch_value(url, ["content", "userAdultStatus"], headers=self.headers)
+        if user_adult_status is None:
+            logutil.error(f"{self.flag}: Cannot find user adult status.")
             return ""
+        return user_adult_status
 
     # def auto_convert_mp4(self, file_path):
     #     base, _ = os.path.splitext(file_path)
