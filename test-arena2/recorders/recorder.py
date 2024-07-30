@@ -5,18 +5,16 @@ import time
 from abc import ABC, abstractmethod
 from http.cookies import SimpleCookie
 from pathlib import Path
-from typing import Dict, Tuple, Union
+from typing import Dict, Tuple
 
-import aiohttp
 import ffmpeg
 import httpx
 import streamlink
 from anyio import EndOfStream
 from httpx import HTTPError, ProtocolError
 from httpx_socks import AsyncProxyTransport
-from requests.exceptions import ConnectionError, RequestException, SSLError
-from streamlink import NoPluginError, PluginError
-from streamlink.stream import HTTPStream, StreamIO
+from requests.exceptions import ConnectionError, SSLError
+from streamlink.stream import StreamIO
 from streamlink_cli.main import open_stream
 from streamlink_cli.output import FileOutput
 from streamlink_cli.streamrunner import StreamRunner
@@ -55,28 +53,18 @@ class LiveRecorder(ABC):
 
         while True:
             try:
-                # await self.run()
-                await asyncio.sleep(self.interval)
+                await self.run()
             except ConnectionError as e:
-                if "Protocol error in live stream detection request" not in str(e):
-                    logutil.error(self.flag, e)
+                logutil.error(self.flag, e)
                 await self.client.aclose()
                 self.client = self.get_client()
-            except PluginError as e:
-                logutil.error(self.flag, f"Streamlink plugin error: {e}")
-            except NoPluginError as e:
-                logutil.error(self.flag, f"NoPluginError: {e}")
-            except PermissionError as e:
-                logutil.error(self.flag, f"Permission error: {e}")
-                time.sleep(self.interval)
-            except RequestException as e:
-                logutil.error(self.flag, f"HTTP request error: {e}")
-                time.sleep(self.interval)
             except KeyboardInterrupt:
                 logutil.warning(self.flag, "Stopped by keyboard interrupt.")
                 raise
             except Exception as e:
                 logutil.error(self.flag, f"Error in live stream detection: {e}")
+            finally:
+                await asyncio.sleep(self.interval)
 
     @abstractmethod
     async def run(self):
@@ -85,22 +73,16 @@ class LiveRecorder(ABC):
     async def request(self, method, url, **kwargs):
         try:
             response = await self.client.request(method, url, **kwargs)
+            if response.status_code != 200:
+                logutil.error(f"Failed to load the page. Status code: {response.status_code}")
+                return None
+            if not response.content:
+                logutil.error("Response content is empty.")
+                return None
             return response
-        except ProtocolError as e:
-            logutil.error(self.flag, f"Protocol error: {e}")
-            raise e
-        except HTTPError as e:
-            logutil.error(self.flag, f"HTTP error: {e}")
-            raise e
-        except EndOfStream as e:
-            logutil.error(self.flag, f"End of stream: {e}")
-            raise e
-        except SSLError as e:
-            logutil.error(self.flag, f"SSL error: {e}")
-            raise e
-        except ConnectionError as e:
+        except (ConnectionError, ProtocolError, HTTPError, EndOfStream, SSLError) as e:
             logutil.error(self.flag, f"Connection error: {e}")
-            raise e
+            raise ConnectionError
         except Exception as e:
             logutil.error(self.flag, f"Unexpected error: {e}")
             raise e
@@ -186,7 +168,7 @@ class LiveRecorder(ABC):
             logutil.error(self.flag, f"Exception occurred: {e}")
             return ""
 
-    def run_record(self, stream: Union[StreamIO, HTTPStream], url, title, format):
+    def run_record(self, stream, url, title, format):
         # Get the output filename
         filename = self.get_filename(title, format)
         if stream:
@@ -203,7 +185,7 @@ class LiveRecorder(ABC):
 
     def stream_writer(self, stream, url, filename):
         logutil.info(self.flag, f"Obtained live stream link: {filename}\n{stream.url}")
-        output = FileOutput(Path(f"{self.output}/{filename}"))
+        output = FileOutput(Path(os.path.join(self.output, filename)))
         try:
             stream_fd, prebuffer = open_stream(stream)
             output.open()
@@ -224,13 +206,15 @@ class LiveRecorder(ABC):
     def run_ffmpeg(self, filename, format):
         logutil.info(self.flag, f"Starting ffmpeg processing: {filename}")
         new_filename = filename.replace(f".{format}", f".{self.format}")
-        ffmpeg.input(f"{self.output}/{filename}").output(
-            f"{self.output}/{new_filename}",
+        input_path = os.path.join(self.output, filename)
+        output_path = os.path.join(self.output, new_filename)
+        ffmpeg.input(input_path).output(
+            output_path,
             codec="copy",
             map_metadata="-1",
             movflags="faststart",
         ).global_args("-hide_banner").run()
-        os.remove(f"{self.output}/{filename}")
+        os.remove(input_path)
 
     def print_info(self):
         logutil.info(self.flag, "=============================")
@@ -258,10 +242,13 @@ class Afreeca(LiveRecorder):
                         data={"bid": self.id},
                     )
                 ).json()
-                if response["CHANNEL"]["RESULT"] != 0:
-                    title = response["CHANNEL"]["TITLE"]
+                if response.get("CHANNEL", {}).get("RESULT") != 0:
+                    logutil.info(self.flag, "The channel is on air.")
+                    title = response.get("CHANNEL", {}).get("TITLE")
                     stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
                     await asyncio.to_thread(self.run_record, stream, url, title, self.format)
+                else:
+                    logutil.info(self.flag, "The channel is offline.")
         except Exception as e:
             logutil.error(self.flag, f"Unexpected error: {e}")
             raise e
@@ -270,74 +257,68 @@ class Afreeca(LiveRecorder):
 class Chzzk(LiveRecorder):
     def __init__(self, user: dict):
         super().__init__(user)
-        self.get_ids()
+
+    async def start(self):
+        await self.get_ids()
         self.flag = f"[{self.platform}][{self.name}]"
+        await super().start()
 
     async def run(self):
+        url = f"https://chzzk.naver.com/live/{self.id}"
         try:
-            status = await self.get_status(self.id)
-            # logutil.debug(self.flag, f"status: {status}")
-            if status == "OPEN":
-                logutil.info(self.flag, "The channel is on air.")
-
-                title = await self.get_title(self.id)
-                file_name = await self.get_filename(title, self.format)
-                output_path = os.path.join(self.output, file_name)
-                adult = await self.get_adult_info(self.id)
-                user_adult_status = await self.get_user_adult_status(self.id)
-
-                logutil.debug(self.flag, f"channel_name: {self.name}")
-                logutil.debug(self.flag, f"title: {title}")
-                logutil.debug(self.flag, f"output_path: {output_path}")
-                logutil.debug(self.flag, f"adult: {adult}")
-                logutil.debug(self.flag, f"user_adult_status: {user_adult_status}")
-
-                await self.download_stream(self.id, output_path)
-            else:
-                logutil.info(self.flag, "The channel is offline.")
-                await asyncio.sleep(self.interval)
+            if url not in recording:
+                response = (
+                    await self.request(
+                        method="GET",
+                        url=f"https://api.chzzk.naver.com/service/v2/channels/{self.id}/live-detail",
+                    )
+                ).json()
+                if response.get("content", {}).get("status") == "OPEN":
+                    logutil.info(self.flag, "The channel is on air.")
+                    title = response.get("content", {}).get("liveTitle").rstrip()
+                    stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
+                    await asyncio.to_thread(self.run_record, stream, url, title, self.format)
+                else:
+                    logutil.info(self.flag, "The channel is offline.")
         except Exception as e:
             logutil.error(self.flag, f"Error occurred while running the recorder: {e}")
             raise e
 
     async def check_if_id(self, channel):
-        # check if the string is a valid channel id
         pattern = re.compile(r"^[0-9a-f]{32}$")
         return bool(pattern.match(channel))
 
-    async def fetch_value(url, keys, headers=None):
+    async def fetch_value(self, url, keys):
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=headers) as response:
-                    if response.status != 200:
-                        logutil.error(f"Failed to load the page. Status code: {response.status}")
+            response = await self.request(method="GET", url=url)
+            if response.status_code != 200:
+                logutil.error(f"Failed to load the page. Status code: {response.status_code}")
+                return None
+            if not response.content:
+                logutil.error("Response content is empty.")
+                return None
+            response_json = response.json()
+            if not response_json:
+                logutil.error("Response JSON is None or empty.")
+                return None
+            data = response_json
+            for key in keys:
+                if isinstance(data, dict):
+                    data = data.get(key)
+                    if data is None:
+                        logutil.error(f"Key '{key}' not found in the JSON data.")
                         return None
-                    if not response.content:
-                        logutil.error("Response content is empty.")
-                        return None
-                    response_json = await response.json()
-                    if not response_json:
-                        logutil.error("Response JSON is None or empty.")
-                        return None
-
-                    data = response_json
-                    for key in keys:
-                        if isinstance(data, dict):
-                            data = data.get(key)
-                            if data is None:
-                                logutil.error(f"Key '{key}' not found in the JSON data.")
-                                return None
-                        else:
-                            logutil.error(f"Data is not a dictionary at key '{key}'.")
-                            return None
-                    return data
+                else:
+                    logutil.error(f"Data is not a dictionary at key '{key}'.")
+                    return None
+            return data
         except Exception as e:
             logutil.error(f"Error occurred while fetching JSON: {e}")
             return None
 
     async def get_id_from_name(self, name):
         url = f"https://api.chzzk.naver.com/service/v1/search/channels?keyword={name}&size=10"
-        data = await self.fetch_value(url, ["content", "data"], headers=self.headers)
+        data = await self.fetch_value(url, ["content", "data"])
         if data is None:
             logutil.error(f"{self.flag}: Cannot find channel '{name}'.")
             return None
@@ -360,7 +341,7 @@ class Chzzk(LiveRecorder):
 
     async def get_channel_name(self, channel_id):
         url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        channel_name = await self.fetch_value(url, ["content", "channel", "channelName"], headers=self.headers)
+        channel_name = await self.fetch_value(url, ["content", "channel", "channelName"])
         if channel_name is None:
             logutil.error(f"{self.flag}: Cannot find channel name.")
             return ""
@@ -382,82 +363,3 @@ class Chzzk(LiveRecorder):
                 logutil.error(f"Cannot find channel name for ID {self.id}.")
                 return
             self.name = channel_name
-
-    async def get_status(self, channel_id):
-        url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        status = await self.fetch_value(url, ["content", "status"], headers=self.headers)
-        if status is None:
-            logutil.error(f"{self.flag}: Cannot find channel status.")
-            return ""
-        return status
-
-    async def get_title(self, channel_id):
-        url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        title = await self.fetch_value(url, ["content", "liveTitle"], headers=self.headers)
-        if title is None:
-            logutil.error(f"{self.flag}: Cannot find title.")
-            return ""
-        return title.rstrip()
-
-    async def get_adult_info(self, channel_id):
-        url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        adult_info = await self.fetch_value(url, ["content", "adult"], headers=self.headers)
-        if adult_info is None:
-            logutil.error(f"{self.flag}: Cannot find adult info.")
-            return ""
-        return adult_info
-
-    async def get_user_adult_status(self, channel_id):
-        url = f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
-        user_adult_status = await self.fetch_value(url, ["content", "userAdultStatus"], headers=self.headers)
-        if user_adult_status is None:
-            logutil.error(f"{self.flag}: Cannot find user adult status.")
-            return ""
-        return user_adult_status
-
-    # def auto_convert_mp4(self, file_path):
-    #     base, _ = os.path.splitext(file_path)
-    #     file_path_mp4 = f"{base}.mp4"
-
-    #     logutil.info(self.flag, f"Converting {file_path} to MP4...")
-    #     try:
-    #         # Convert the file with copying codecs
-    #         (ffmpeg.input(file_path).output(file_path_mp4, format="mp4", vcodec="copy", acodec="copy").run(overwrite_output=True, quiet=True))
-    #         logutil.info(self.flag, f"Converted {file_path} to {file_path_mp4}")
-    #         os.remove(file_path)
-    #     except ffmpeg.Error as e:
-    #         logutil.info(self.flag, f"Error: {e.stderr.decode('utf-8')}")
-    #         os.remove(file_path_mp4)
-    #         return
-
-    #     logutil.info(self.flag, f"Conversion successful: {file_path} -> {file_path_mp4}")
-
-    async def download_stream(self, channel_id, output_file):
-        url = f"https://chzzk.naver.com/live/{channel_id}"
-        stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
-        if not stream:
-            logutil.error(self.flag, "Cannot find any streams.")
-            return
-
-        async with aiohttp.ClientSession() as session:
-            async with session.get(stream.url) as response:
-                if response.status != 200:
-                    logutil.error(self.flag, f"Failed to open stream: {response.status}")
-                    return
-
-                process = ffmpeg.input("pipe:0").output(output_file, vcodec="copy", acodec="copy").run_async(pipe_stdin=True, overwrite_output=True)
-                logutil.info(self.flag, f"Recording to {output_file}...")
-
-                try:
-                    while True:
-                        data = await response.content.read(1024)
-                        if not data:
-                            break
-                        process.stdin.write(data)
-                except KeyboardInterrupt:
-                    logutil.warning(self.flag, "KeyboardInterrupt received. Stopping the recording...")
-                    raise
-                finally:
-                    process.stdin.close()
-                    process.wait()
-                    # self.auto_convert_mp4(output_file)
