@@ -371,7 +371,7 @@ class TikTok(LiveRecorder):
         url = f"https://www.tiktok.com/@{self.id}/live"
         try:
             if url not in recording:
-                room_id = self.get_room_id()
+                room_id = await self.get_room_id()
                 response = (
                     await self.request(
                         method="GET",
@@ -381,7 +381,7 @@ class TikTok(LiveRecorder):
                 status = response.get("LiveRoomInfo", {}).get("status")
                 if status and status != 4:
                     logutil.info(self.flag, "The channel is on air.")
-                    title = response.get("content", {}).get("liveTitle").rstrip()
+                    title = await self.get_title(room_id)
                     stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
                     await asyncio.to_thread(self.run_record, stream, url, title, self.format)
                 else:
@@ -446,3 +446,26 @@ class TikTok(LiveRecorder):
         except Exception as e:
             logutil.error(self.flag, f"Unexpected error: {e}")
             return ""
+
+    async def get_title(self, room_id) -> str:
+        url = f"https://webcast.tiktok.com/webcast/room/info/?aid=1988&room_id={room_id}"
+        try:
+            response = await self.request(method="GET", url=url)
+            if response.status_code != 200:
+                logutil.error(f"Failed to load the page. Status code: {response.status_code}")
+                return ""
+            if not response.content:
+                logutil.error(self.flag, "Response content is empty.")
+                return ""
+
+            response_json = response.json()
+            title = response_json.get("data", {}).get("title")
+            if not title:
+                logutil.error(self.flag, "Cannot find title.")
+                return ""
+
+            return title
+
+        except Exception as e:
+            logutil.error(self.flag, f"Unexpected error: {e}")
+            raise e
