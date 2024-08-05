@@ -1,0 +1,15 @@
+2024-08-05 20:46:44.285 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][aejinleeeeee] frame=142175 fps= 21 q=-1.0 size= 2227712kB time=00:01:02.06 bitrate=294018.2kbits/s speed=0.00934x
+2024-08-05 20:46:45.128 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][aejinleeeeee] frame=142190 fps= 21 q=-1.0 size= 2227968kB time=00:01:02.67 bitrate=291232.1kbits/s speed=0.00943x
+2024-08-05 20:46:55.278 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][aejinleeeeee] frame=142203 fps= 21 q=-1.0 size= 2228224kB time=00:01:03.18 bitrate=288900.7kbits/s speed=0.00951x
+2024-08-05 20:48:37.543 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][aejinleeeeee] frame=142210 fps= 21 q=-1.0 size= 2228224kB time=00:01:03.46 bitrate=287630.6kbits/s speed=0.00943x
+2024-08-05 20:48:37.543 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][aejinleeeeee] frame=142210 fps= 21 q=-1.0 Lsize= 2229522kB time=00:01:03.46 bitrate=287798.1kbits/s speed=0.00939x
+2024-08-05 20:48:37.575 | INFO     | recorders.recorders:handle_recording_ffmpeg:195 - [TikTok][aejinleeeeee] frame=142210 fps= 21 q=-1.0 Lsize= 2229522kB time=00:01:03.46 bitrate=287798.1kbits/s speed=0.00939x
+2024-08-05 20:48:37.575 | INFO     | recorders.recorders:start_recording:127 - [TikTok][aejinleeeeee] Stream lagging
+2024-08-05 20:48:42.607 | ERROR    | recorders.recorders:run:97 - [TikTok][aejinleeeeee] Expecting value: line 1 column 1 (char 0)
+2024-08-05 20:48:42.607 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
+2024-08-05 20:48:57.624 | INFO     | recorders.recorders:test_get_room_id_from_user:330 - [TikTok][aejinleeeeee] Temporary error: 403 Forbidden.
+2024-08-05 20:48:57.656 | INFO     | recorders.recorders:run:95 - [TikTok][aejinleeeeee] room_id not found
+2024-08-05 20:48:57.656 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
+2024-08-05 20:49:13.144 | INFO     | recorders.recorders:test_get_room_id_from_user:388 - [TikTok][aejinleeeeee] Cannot find Room ID.
+2024-08-05 20:49:13.810 | INFO     | recorders.recorders:run:95 - [TikTok][aejinleeeeee] room_id not found
+2024-08-05 20:49:13.826 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
