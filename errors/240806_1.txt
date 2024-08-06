@@ -1,0 +1,5 @@
+2024-08-06 23:20:27.871 | INFO     | recorders.recorders:run:95 - [TikTok][dasom_lovely] room_id not found
+2024-08-06 23:20:27.871 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
+2024-08-06 23:20:44.232 | ERROR    | recorders.recorders:test_get_room_id_from_user:370 - [TikTok][dasom_lovely] Cannot find user info.
+2024-08-06 23:20:44.232 | ERROR    | recorders.recorders:test_get_room_id_from_user:371 - [TikTok][dasom_lovely] User info: null
+2024-08-06 23:20:44.388 | INFO     | recorders.recorders:run:95 - [TikTok][dasom_lovely] room_id not found
