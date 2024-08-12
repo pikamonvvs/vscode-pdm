@@ -1,0 +1,9 @@
+2024-08-11 13:01:34.672 | INFO     | recorders.recorders:test_get_room_id_from_user:330 - [TikTok][sumin72600] Temporary error: 403 Forbidden.
+2024-08-11 13:01:34.688 | INFO     | recorders.recorders:run:95 - [TikTok][sumin72600] room_id not found
+2024-08-11 13:01:34.688 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
+2024-08-11 13:01:44.727 | INFO     | recorders.recorders:test_get_room_id_from_user:330 - [TikTok][sumin72600] Temporary error: 403 Forbidden.
+2024-08-11 13:01:44.742 | INFO     | recorders.recorders:run:95 - [TikTok][sumin72600] room_id not found
+2024-08-11 13:01:44.742 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
+2024-08-11 13:01:54.938 | ERROR    | recorders.recorders:test_get_room_id_from_user:342 - [TikTok][sumin72600] Cannot find script tag for this ID.
+2024-08-11 13:01:54.969 | INFO     | recorders.recorders:run:95 - [TikTok][sumin72600] room_id not found
+2024-08-11 13:01:54.969 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds

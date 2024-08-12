@@ -1,0 +1,8 @@
+2024-08-11 13:04:05.060 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][dasom_lovely] frame=65538 fps= 15 q=-1.0 size= 1161984kB time=01:12:52.33 bitrate=2177.1kbits/s speed=0.999x
+2024-08-11 13:04:15.539 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][dasom_lovely] frame=65546 fps= 15 q=-1.0 size= 1161984kB time=01:12:52.84 bitrate=2176.8kbits/s speed=0.999x
+2024-08-11 13:05:46.235 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][dasom_lovely] frame=65553 fps= 15 q=-1.0 size= 1162240kB time=01:12:53.32 bitrate=2177.1kbits/s speed=0.981x
+2024-08-11 13:05:46.235 | INFO     | recorders.recorders:handle_recording_ffmpeg:180 - [TikTok][dasom_lovely] frame=65553 fps= 15 q=-1.0 Lsize= 1162353kB time=01:12:53.32 bitrate=2177.3kbits/s speed=0.976x
+2024-08-11 13:05:46.235 | INFO     | recorders.recorders:handle_recording_ffmpeg:195 - [TikTok][dasom_lovely] frame=65553 fps= 15 q=-1.0 Lsize= 1162353kB time=01:12:53.32 bitrate=2177.3kbits/s speed=0.976x
+2024-08-11 13:05:46.235 | INFO     | recorders.recorders:start_recording:127 - [TikTok][dasom_lovely] Stream lagging
+2024-08-11 13:05:51.288 | ERROR    | recorders.recorders:run:97 - [TikTok][dasom_lovely] Expecting value: line 1 column 1 (char 0)
+2024-08-11 13:05:51.288 | INFO     | recorders.recorders:retry_wait:568 - Waiting 10 seconds
