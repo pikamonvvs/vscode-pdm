@@ -469,3 +469,26 @@ class TikTok(LiveRecorder):
         except Exception as e:
             logutil.error(self.flag, f"Unexpected error: {e}")
             raise e
+
+
+class Pandalive(LiveRecorder):
+    async def run(self):
+        url = f"https://www.pandalive.co.kr/live/play/{self.id}"
+        try:
+            if url not in recording:
+                response = (
+                    await self.request(
+                        method="POST", url="https://api.pandalive.co.kr/v1/live/play", headers={"x-device-info": '{"t":"webMobile","v":"1.0","ui":0}'}, data={"action": "watch", "userId": self.id}
+                    )
+                ).json()
+                status = response.get("result")
+                if status:
+                    logutil.info(self.flag, "The channel is on air.")
+                    title = response.get("media", {}).get("title")
+                    stream = self.get_streamlink().streams(url).get("best")  # HLSStream[mpegts]
+                    await asyncio.to_thread(self.run_record, stream, url, title, self.format)
+                else:
+                    logutil.info(self.flag, "The channel is offline.")
+        except Exception as e:
+            logutil.error(self.flag, f"Unexpected error: {e}")
+            raise e

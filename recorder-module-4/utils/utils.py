@@ -4,8 +4,6 @@ from loguru import logger
 
 PLATFORM_CHOICES = [
     "Afreeca",
-    "Chzzk",
-    "TikTok",
     "Pandalive",
 ]
 FORMAT_CHOICES = ["mp4", "ts", "flv"]
@@ -22,6 +20,7 @@ def parse_args():
     parser.add_argument("-p", "--proxy", type=str, help="Set the proxy server")
     parser.add_argument("-c", "--cookies", type=str, help="Set the cookies file path")
     parser.add_argument("-H", "--headers", type=str, help="Set the headers")
+    parser.add_argument("-l", "--log-level", type=str, help="Set the logging level")
 
     args = parser.parse_args()
 
@@ -43,7 +42,6 @@ class Logger:
             level="ERROR",
             encoding="utf-8",
             format="[{{time:YYYY-MM-DD HH:mm:ss}}][{{level}}][{{name}}][{{function}}:{{line}}]{{message}}",
-            enqueue=True,
         )
 
     def debug(self, *args):

@@ -1,0 +1,41 @@
+2024-08-15 21:52:14.947 | INFO     | recorders.recorders:start:52 - [Afreeca][flower1023] Checking live stream status
+2024-08-17 05:22:01.609 | ERROR    | recorders.recorders:request:81 - [Afreeca][flower1023] HTTP error:
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(days=1, seconds=26988, microseconds=365541), 'exception': None, 'extra': {}, 'file': (name='recorders.py', path='recorders\\recorders.py'), 'function': 'request', 'level': (name='ERROR', no=40, icon='❌'), 'line': 81, 'message': '[Afreeca][flower1023] HTTP error: ', 'module': 'recorders', 'name': 'recorders.recorders', 'process': (id=13936, name='MainProcess'), 'thread': (id=11292, name='MainThread'), 'time': datetime(2024, 8, 17, 5, 22, 1, 609734, tzinfo=datetime.timezone(datetime.timedelta(seconds=32400), '대한민국 표준시'))}
+Traceback (most recent call last):
+  File "httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+  File "httpx\_transports\default.py", line 373, in handle_async_request
+  File "httpcore\_async\connection_pool.py", line 216, in handle_async_request
+  File "httpcore\_async\connection_pool.py", line 196, in handle_async_request
+  File "httpcore\_async\connection.py", line 99, in handle_async_request
+  File "httpcore\_async\connection.py", line 76, in handle_async_request
+  File "httpcore\_async\connection.py", line 154, in _connect
+  File "httpcore\_backends\anyio.py", line 68, in start_tls
+  File "contextlib.py", line 158, in __exit__
+  File "httpcore\_exceptions.py", line 14, in map_exceptions
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "recorders\recorders.py", line 75, in request
+  File "httpx\_client.py", line 1574, in request
+  File "httpx\_client.py", line 1661, in send
+  File "httpx\_client.py", line 1689, in _send_handling_auth
+  File "httpx\_client.py", line 1726, in _send_handling_redirects
+  File "httpx\_client.py", line 1763, in _send_single_request
+  File "httpx\_transports\default.py", line 372, in handle_async_request
+  File "contextlib.py", line 158, in __exit__
+  File "httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+httpx.ConnectTimeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "loguru\_handler.py", line 206, in emit
+  File "loguru\_file_sink.py", line 204, in write
+  File "loguru\_file_sink.py", line 290, in _terminate_file
+  File "loguru\_file_sink.py", line 84, in retention_age
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'logs\\log_2024-08-02.log'
+--- End of logging error ---
+2024-08-17 05:22:01.625 | ERROR    | recorders.recorders:start:58 - [Afreeca][flower1023]
